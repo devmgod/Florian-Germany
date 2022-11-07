@@ -1,0 +1,59 @@
+Kyrylo Access Summary
+
+email-adress :
+https://webmail01.netcup.net
+
+User: k-dev@sub-netz.de
+Pass :O!i8m3z55
+
+Mail
+Mailserver (IMAP + SMTP) : mail154987.mx2e4e.netcup.net
+Username/Address : k-dev@sub-netz.de
+Pass : O!i8m3z55
+
+VPN
+Download openVPN Profile at : https://portal.das-studio.de:8443/
+Using User/PW :
+k-dev
+pYwzL+2j9mtZ
+
+GIT
+k-dev@Subnetz
+k-dev@sub-netz.de
+95dl1T4D
+
+GIT Repository for "Coleman"
+http://dev.das-studio.de:7990/scm/clm/default.git
+
+SSH to DEV-Server
+192.168.11.95
+studio		dc6_igFTIGgv!
+root 		ka3D_DJj-MOd?
+root(mysql) tqbFjotlD
+
+Issue Tracker
+subnetz.youtrack.cloud
+k-dev@sub-netz.de (or just k-dev, not sure)
+(Your self chosen password. Use reset pw if needed)
+
+
+https://coleman-dev-ext.das-studio.de/?
+
+k-dev@sub-netz.de
+4G17JthxHXyp
+
+For the base system:
+http://dev.das-studio.de:7990/scm/dsfw/default.git
+
+GIT repositories are :
+For the portal itself : http://dev.das-studio.de:7990/scm/clm/default.git
+
+Use branch
+release/1.7.6.1 for the base system.
+
+feature/1.2 for the portal
+
+Reminder : Pls do not commit/push any changes to the base system without telling me before.
+
+
+/var/www/coleman/

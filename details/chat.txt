@@ -1,0 +1,3414 @@
+ChatBot @ChatBot
+Congratulations, your bid has been awarded!
+Click the Accept button below to start working.
+This project has a budget of €1500.00 EUR and you will be charged a project commission of €150.00 EUR on accept.
+Accept
+4:28 PM
+User Avatar
+Thank you!
+4:29 PM
+One concern...
+4:29 PM
+I have to pay now for fee when I accept the project.
+4:30 PM
+User Avatar
+Is this new? I was asked for 52€ too when creating it ...
+4:31 PM
+I will post a 100€ Milestone for completing the basic setup (VPN,Bugtracker,etc.). Is this OK for you?
+4:31 PM
+User Avatar
+Ok
+4:32 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. created a milestone
+Milestone: 'Complete Basic setup (VPN,Bugtracker etc.)'
+Amount: € 100.00 EUR
+4:33 PM
+User Avatar
+I just told the sysadmin that you can't log in and asked him to check the firewall logs. What does the screen you postet say exactly ?
+4:36 PM
+newsflash : The Username ist *not* k-dev@das-studio.de , but k-dev only.
+4:37 PM
+User Avatar
+Okay, Will try again
+
+
+I have no enough the balance in my acc now. I have to pay 150 euro soon.
+So, if possible I hope you'll pay some funds our old project before I accept project.
+4:38 PM
+User Avatar
+you have to pay 10% of your bid as fee? wow ...
+4:41 PM
+User Avatar
+Yes
+4:42 PM
+image.pngimage.png
+4:43 PM
+User Avatar
+ok, i think we'll have to sort this out tomorrow. sysadmin is already on his way home.
+So again : You will only be able to accept this project if i award you another 150€ for the old project ?
+4:46 PM
+User Avatar
+Yes, thank you
+4:55 PM
+then I can accept the project immediately
+4:55 PM
+User Avatar
+To be honest, i don't normally pay in advance. And of course not for completed projects because it makes accounting on my side difficult.
+4:57 PM
+User Avatar
+understand
+4:57 PM
+User Avatar
+But in your case i will make a exception , hoping this will end up good
+4:57 PM
+User Avatar
+Thank you
+4:58 PM
+Will do my best try for the project
+4:58 PM
+VPN status is a connecting still
+5:00 PM
+User Avatar
+milestone ist released on old project. let's try again the VPN etc. tomorrow
+5:01 PM
+User Avatar
+Thank you
+5:01 PM
+Ok, I am always ready for you
+5:01 PM
+User Avatar
+ChatBot @ChatBot
+Accepted!
+You're all set to start working
+5:02 PM
+JUL 09, 2021
+User Avatar
+Hi. Did you try the VPN connection again?
+1:15 PM
+?
+2:15 PM
+User Avatar
+Hi,How are you?
+3:27 PM
+Sorry for delay reply
+3:27 PM
+I just get back here
+3:28 PM
+Let me try again now
+3:28 PM
+User Avatar
+alright
+3:28 PM
+User Avatar
+re-installing now
+3:32 PM
+It seems that is connected
+3:39 PM
+image.pngimage.png
+3:39 PM
+image.pngimage.png
+3:40 PM
+User Avatar
+30° Sunny AND a working VPN … awesome
+3:47 PM
+try ping 192.168.11.95
+3:47 PM
+User Avatar
+image.pngimage.png
+3:50 PM
+that's work
+3:50 PM
+User Avatar
+alright. next step : Try to ssh into this server with
+user : studio
+password : dc6_igFTIGgv!
+3:59 PM
+User Avatar
+image.pngimage.png    
+4:06 PM
+Done
+4:06 PM
+User Avatar
+Alright slightly smiling face emoji
+4:07 PM
+Portal instance is located under /var/www/coleman
+This is a copy of another instance for a customer named "campari".
+Next we will setup your GIT
+4:22 PM
+Might take a while because i have to take care of another urgent matter
+4:23 PM
+User Avatar
+Okay. will be waiting for you
+4:37 PM
+please give me your mail in sub-netz.de
+4:37 PM
+I will give you my git via it
+4:38 PM
+I would not to leave my any profile here
+4:38 PM
+User Avatar
+mail@sub-netz.de
+4:39 PM
+But i don't need your GIT credentials
+4:39 PM
+You will get a cloneable GIT-URL that points to the customer's internal BitBucket/GIT-Server where the repository for "Coleman" ist hosted
+4:40 PM
+User Avatar
+Ah~~ understand
+4:43 PM
+Will follow your operation
+4:43 PM
+Thanks
+4:43 PM
+User Avatar
+will update you as soon as possible
+4:43 PM
+User Avatar
+No problems
+4:43 PM
+JUL 13, 2021
+User Avatar
+Hi, Florian. How are you?
+7:51 PM
+I am waiting for you still.
+7:52 PM
+Please ping once you'll ready
+7:52 PM
+Thank you!
+7:53 PM
+JUL 15, 2021
+User Avatar
+Hi Kyrylo. Quick update : Customer has now greenlighted the project. Are you able to put in some hours tomorrow?
+11:39 AM
+User Avatar
+Hi Florian, Sure available
+11:44 AM
+JUL 16, 2021
+User Avatar
+Hi there
+3:25 PM
+Ok, i think i have completed all setup steps for you.
+3:26 PM
+So first thing : Add these two entries to your HOSTS file in Windows :
+192.168.11.89 dev.das-studio.de
+192.168.11.95 coleman-dev-ext.das-studio.de
+3:26 PM
+First is for the GIT/BitBucket-Server, the second for the DEV-Server with the software instance on it.
+3:27 PM
+The Application consists of a Framework/Base system and customer specific adaptions.
+You can GIT clone the base from this URL (with VPN open and the HOSTS-Entries set) :
+http://dev.das-studio.de:7990/scm/dsfw/default.git
+Once cloned, select the Branch feature/1.7.5.
+
+You can GIT clone the customer adaptions from :
+http://dev.das-studio.de:7990/scm/clm/default.git
+After the clone pls select "development" as a branch.
+3:29 PM
+User Avatar
+Okay, will do soon
+3:30 PM
+User Avatar
+ok, i just put the rest of the instructions here in the meantime
+3:30 PM
+The development instance can be reached at :
+https://coleman-dev-ext.das-studio.de
+
+There you can log in with the following credentials :
+k-dev@sub-netz.de
+kD3v21Hu3
+
+Your account has admin privileges so you're free to look around. Portal is german/englisch which you can switch by clicking the flag in the footer.
+3:32 PM
+Oh, almost forgot : Your GIT/BitBucket credentials are :
+k-dev@Subnetz
+KD3vv836%!
+3:32 PM
+Let me know when you have it ready, but you don't need to rush
+3:33 PM
+User Avatar
+Sure, Thank you
+3:33 PM
+image.pngimage.png
+4:16 PM
+All done
+4:17 PM
+User Avatar
+Alright slightly smiling face emoji
+4:46 PM
+Let me fix some last issues on that system. Afterwards i'll assign some tasks to you
+4:46 PM
+Alright. Let's start with a simple task, shall we?
+First, update your git repos, because i pushed some changes in the meantime.
+Then :
+Navigate to the the WJT ("WebJobTasche") from the Dashboard. Update UI-elements according to the screens i will post here. Whenever possible use/change the global CSS-Vars. (--portal-color-palette-X)
+5:01 PM
+d89989f0-39ef-42c9-9900-ce4afc7f49ae.jpgd89989f0-39ef-42c9-9900-ce4afc7f49ae.jpg
+5:01 PM
+3e888d33-cc57-4f10-ac22-625af89d872f.jpg3e888d33-cc57-4f10-ac22-625af89d872f.jpg
+5:01 PM
+If you have any questions , just ask. You can/should work directly on the server (auto-upload changed files etc.)
+5:02 PM
+User Avatar
+No problems, I will do it
+5:13 PM
+JUL 17, 2021
+User Avatar
+Hi
+12:59 PM
+How are you?
+12:59 PM
+I am working on the specification.
+1:00 PM
+I have one issue now
+1:00 PM
+It seems that a Yak.php file is missed in the source, so it's an error to loading the pages.
+Can you guide me for Yak, or can provide it me?
+1:02 PM
+Thanks
+1:02 PM
+Will do my best try still for the project.
+1:03 PM
+User Avatar
+hi. the server seems to be missing the yac package. don‘t worry i will install it this evening when i am back home
+1:05 PM
+User Avatar
+Ok. I will try continou...
+1:06 PM
+image.pngimage.png
+1:06 PM
+This is the issue...
+
+Have a good day!
+1:07 PM
+User Avatar
+i checked the system and the package IS installed and working.
+6:41 PM
+i double checked on the server by enabling the WJT ViewCache (which is based on YAC) and it works like normal.
+Problem might be your /mnt/PHP-VPN.
+As usual for a DEV-Server with this customer i'm working directly on the server as standard and my IDE just uploads every change directly to it.
+6:46 PM
+i would encourage you to do the same, as you have this server all for yourself. no one else will touch it while development is in progress
+6:49 PM
+User Avatar
+I see
+6:55 PM
+I will check for it again
+6:55 PM
+Isn't there any special setup related with Yac I have to additional do?
+I had done everything as a guide in the readme.
+6:55 PM
+Let me retry the options for the source path.
+6:56 PM
+User Avatar
+Oh ... well the readme is kinda outdated/poorly maintained
+7:06 PM
+This was meant to be a guide for setting up a new Server, you can ignore it fully because the DEV-Server is already prepared.
+7:08 PM
+Just set your IDE to upload every change directly to the server. There you can use the PHP-Errorlog (/var/log/php/error.log) and the application's own log at (/var/www/coleman/log/log_DATE.log)
+7:10 PM
+The CSS files are found unter css/ and the template files under template/ (in /var/www/coleman/)
+7:11 PM
+User Avatar
+Got it.
+7:11 PM
+Will try again
+7:11 PM
+User Avatar
+sry, for briefing this poorly
+7:12 PM
+User Avatar
+No worries
+7:12 PM
+HI
+9:33 PM
+I understood that I have to work with a method similar to ftp.
+Can you guide me to push the code changes?
+9:34 PM
+image.pngimage.png
+9:34 PM
+Currently, I got this issue to push the code updated.
+9:34 PM
+User Avatar
+can you create a pull request instead of pushing?
+9:36 PM
+User Avatar
+Ok
+9:36 PM
+let me try now
+9:36 PM
+done
+9:37 PM
+I had simple change the code
+9:37 PM
+User Avatar
+alright. i‘ll review it tomorrow morning. have a nice saturday evening.
+9:39 PM
+User Avatar
+Ok. that was a simple change for the test.
+9:40 PM
+Will be waiting for you tomorrow
+9:40 PM
+User Avatar
+ok, see you then
+9:42 PM
+User Avatar
+Good night! slightly smiling face emoji
+9:42 PM
+User Avatar
+u 2
+9:42 PM
+JUL 18, 2021
+User Avatar
+good morning. i'm afraid there was no pull request on the GIT/BitBucket when i checked this morning. To make things easier i've upgraded your repository rights for "coleman" to Read/Write. So you can simply push your changes.
+10:25 AM
+I'm out of office now for a few hours but will be back later
+10:26 AM
+User Avatar
+Okay, let me check for it soon
+10:32 AM
+User Avatar
+See if you can update the CSS/UI of the WJT("WebJobTasche") as briefed earlier.
+10:33 AM
+User Avatar
+Yes, I checked already code for that. I can do ti
+10:34 AM
+it*
+10:35 AM
+User Avatar
+I have to push/merge the updated code and test the result on the live site whenever I update each code change currently.
+Also, I have no permission to merge the commits.
+Looking forward to a better way to check for any code change while I working.
+6:33 PM
+JUL 19, 2021
+User Avatar
+Good Morning Kyrylo. Right now i can't see any pushed code, aside the test push from 2 days ago.
+The workflow here is as follows:
+1. Make a change.
+2. Let you IDE Auto-Upload it to the server.
+3. Test that change.
+4. Commit many times, push one time at the end of the day.
+5. You can work on your branch of code as long as needed for the work to be done.
+6. When feasible i'll merge your branch into develop and create a new one for you when the next part of the work is due.
+9:59 AM
+If it is OK with you, i would merge my own changes i did in the meantime into develop and create a new branch of it for you to work with.
+10:00 AM
+I've update the DEV-Server with the changes i did in the meantime. Please check out/ work with the branch feature/wjt_ui_update as of now.
+10:23 AM
+User Avatar
+Ah~ I fogot ssl access.
+11:23 AM
+I will config it and update.
+11:24 AM
+THnaks
+11:24 AM
+User Avatar
+Hi
+10:05 PM
+I had configured the IDE Auto-Upload and git commit/push in my local.
+10:05 PM
+So I am working on the UI updates that you asked for.
+10:05 PM
+I have some questions regarding the coding.
+10:05 PM
+I found out that CSS but can't find the template files for the UI to update.
+10:06 PM
+I am now working on the repo of http://dev.das-studio.de:7990/scm/dsfw/default.git for a server accessed by SSL you provided.
+10:06 PM
+For the work of UI change, should I work on both 2 repos (Framework/Base system, Customer specific adaptions)?
+10:07 PM
+It observed that Framework/Base system repo is matched with a server's file/directory structure currently, but I can't find really the template needed.
+10:11 PM
+User Avatar
+which template file are you missing?
+10:30 PM
+i‘ll look into it first thing tomorrow morning
+10:31 PM
+User Avatar
+I'd like to only know how do find a template file needed.
+10:32 PM
+image.pngimage.png
+10:34 PM
+For example, I tried to change this UI.
+10:34 PM
+I found out css needed for that
+10:35 PM
+But, I am not sure how do find a template needed.
+10:36 PM
+User Avatar
+ok. when the portal is deployed, both, the dsfw and the custom repo (coleman in our case) get copied into one folder. i got my IDE for Coleman repo set up to link/include the dsfw folder. somehow i cant see the fule
+10:36 PM
+*file . maybe because i‘m on mobile right now
+10:36 PM
+sry, almost asleep right now, will talk to you tomorrow
+10:37 PM
+User Avatar
+Yes
+10:37 PM
+Have a good night! slightly smiling face emoji
+10:38 PM
+JUL 20, 2021
+User Avatar
+Good morning slightly smiling face emoji After a too short night and a kick-ass coffee i'm back at it again.
+9:39 AM
+I've looked up the documentation for the DS-Framework (aka. DSFW) . There is some but it is mostly in german i'm afraid.
+9:40 AM
+User Avatar
+Good morning slightly smiling face emoji
+9:40 AM
+User Avatar
+Nevertheless i'll post some of the documentation charts here :
+9:41 AM
+Bildschirmfoto 2021-07-20 um 09.38.08.pngBildschirmfoto 2021-07-20 um 09.38.08.png
+9:41 AM
+All templates are to be found in the "/template" dir.
+- There are templates of the base system/framework which are to be found under "/template/ds/..."
+- Shared templates in "/template/shared" and "/template/elements"
+- Templates for the customer instance under "/template/CUSTOMER"
+9:43 AM
+Regarding the WJT, it uses a mix of "ds" and "coleman" templates. Header, Footer and JS-Functions are imported from the "/template/ds/wjt/"
+Base template for "coleman" is "/template/coleman/wjt/standard.tpl"
+9:45 AM
+Most templates are directly connected to a certain View-Class.
+The DSFW uses a MVA (Model-View-Adapter) approach which is ,granted, quite uncommon, but i think you will see how that works.
+9:46 AM
+The system navigates by using simple URL params like : www.ourportal.com/?wjt
+9:47 AM
+In order for a param to work it must be registered as a "route" in the main config File at /config/Config.php (search in it for "getRegisteredRoutes()" )
+When a user navigates to that URL (?wjt) for example. The "\coleman\wjt\adapters\Wjt" is called, which renders its view "/coleman/wjt/views/WjtStandard" (defined in its constructor). This view has then all the data from the assigned Model-Class (also defined in the constructor of the Adapter) and then renders the assigned template-file (assigned in the constructor)
+9:52 AM
+Important note ist that all "/lib/ds" and "/template/ds" files SHOULD be used "as is" and only be modified if REALLY needed (thus keeping the base system interchangeable, as possible)
+9:53 AM
+The "WJT" is to be seen only as an "App" inside the base portal system. It also has its own config under /lib/coleman/wjt/config/ApplicationConfig
+9:54 AM
+User Avatar
+OK, Thank you so much. I understand. Let me have a look the template again.
+9:56 AM
+User Avatar
+Alright, let me drop you some additional info while i'm at it.
+JS calls to the API/Backend are organized by js wrappers and a specific request/response scheme outline here (sorry again for german doc) :
+9:57 AM
+Bildschirmfoto 2021-07-20 um 09.55.49.pngBildschirmfoto 2021-07-20 um 09.55.49.png
+9:57 AM
+I know it is a lot to process ... which gave me the idea to start working with you on rather simple UI/CSS changes, thus slowly introducing the whole system to you
+9:58 AM
+User Avatar
+thumbs up emoji
+9:59 AM
+I understood the frontend logic that uses 2 different templates on the website we building.
+11:45 AM
+I'd like to ask one question regarding to push of github.
+11:46 AM
+Currently, 2 different templates(ds and coleman) are basically configured in the server.
+11:46 AM
+So I have to update needed on the source and can check it in live.
+However, the ds and coleman templates are stored separately in the different repositories in GitHub.
+11:46 AM
+Thus, should I push the updates I worked for the source on the server into 2 repositories separately?
+11:46 AM
+Repo 1 - Framework/Base system (for ds)
+Repo 2 - Customer specific adaptions (for coleman)
+11:48 AM
+For example, if I changed a "ds" template, I have to push into repo1, otherwise, if I changed a "coleman" template, I have to push into repo2. If I changed for both of 2, I have to twice push into 2 repositories separately.
+11:52 AM
+Is right this operation?
+11:54 AM
+User Avatar
+Yes, you got it right. But the DSFW should only be altered/updated if REALLY needed. And, as of now you don't have the proper access right to push to it.
+12:14 PM
+Do you currently have something to push to DSFW?
+12:14 PM
+Another thing just to clarify : When you say "GitHub" you don't mean the web service that uses Git but the Git-System itself? I'm just saying because none of this code must go to GitHub.
+12:15 PM
+User Avatar
+Understand
+1:52 PM
+I meant a git web service
+1:52 PM
+Thank you for your explaination
+1:53 PM
+JUL 21, 2021
+User Avatar
+image.pngimage.png
+12:07 AM
+I updated for some css changes.
+12:08 AM
+Please check if my work is right.
+12:08 AM
+I have updated a server and pull/push in git for the some updates
+12:09 AM
+THank youi
+12:09 AM
+User Avatar
+ok, seems about right. what about the second screen i briefed you (for the second column, and the menu) ?
+11:55 AM
+User Avatar
+I am working now
+12:00 PM
+WIll update it asap
+12:00 PM
+User Avatar
+ok
+12:01 PM
+one thing : Make sure the buttons use --portal-color-palette-3 as background-color . (I already changed the portal color vars in my branch according to customer spec) :
+12:25 PM
+Bildschirmfoto 2021-07-21 um 12.23.59.pngBildschirmfoto 2021-07-21 um 12.23.59.png
+12:25 PM
+oh, and please make sure the buttons are accessible when the left column is collapsed , too (by clicking the button in the left column right above the footer)
+12:30 PM
+Bildschirmfoto 2021-07-21 um 12.30.21.pngBildschirmfoto 2021-07-21 um 12.30.21.png
+12:30 PM
+User Avatar
+Understand, Will do
+12:55 PM
+JUL 22, 2021
+User Avatar
+Hi Florian, Good morning
+9:21 AM
+Presented all you were briefing.
+9:22 AM
+Check it please, Thanks
+9:22 AM
+User Avatar
+will do soon �
+6:22 PM
+This looks pretty good, i like the collapsed view of the left column, but sadly the uncollapsed view is now not according to spec (buttons not in one line):
+7:04 PM
+Bildschirmfoto 2021-07-22 um 19.03.09.pngBildschirmfoto 2021-07-22 um 19.03.09.png
+7:04 PM
+oh ... well thats only the case if you narrow down the window below 1350px in width or so.
+7:06 PM
+if you can easily fix this, please do so and update the GIT.
+For good measrure : Please give me a quick heads up on how much work you already put in there for these changes.
+7:07 PM
+User Avatar
+Sure, will update soon
+7:16 PM
+Thanks
+7:16 PM
+Done
+8:58 PM
+User Avatar
+i like it , thanks kyrylo
+9:00 PM
+User Avatar
+If there needs any change, let em know please. It took some time to understand template structure initially. it was happy to your help. Not much to code for updating UI.
+9:02 PM
+In the future, it would be easier and faster, will do my best. Looking forward to further work. and I appreciate if you release the current milestone of €100.
+9:04 PM
+Thank you
+9:05 PM
+User Avatar
+Alright, sounds reasonable to me. You did good, especially given all the details etc. this project comes with!
+9:09 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. released a milestone
+Milestone: 'Complete Basic setup (VPN,Bugtracker etc.)'
+Amount: € 100.00 EUR
+9:09 PM
+User Avatar
+Thank you so much
+9:09 PM
+Good night! slightly smiling face emoji
+9:11 PM
+User Avatar
+I just opened the bottle of wine ... at least 1-2 hours 'till bedtime slightly smiling face emoji
+9:11 PM
+I'll merge your code tomorrow, update the DEV-Server (yours and mine) and see that i create new tasks for you.
+9:13 PM
+User Avatar
+thumbs up emoji :fantastic
+9:13 PM
+JUL 23, 2021
+User Avatar
+Hi Kyrylo. I have a new task which you can find as an PDF in the "Files" section of this project.
+I left your server untouched so far but you need to commit/push your work to the newly created branch "feature/multilevel_category_tile_selector"
+4:10 PM
+Again this is mainly a UI issiue but this time PHP-Coding is necessary.
+4:11 PM
+Just FYI : I'll be on mobile, maybe not too responsive for the next hours or so.
+4:11 PM
+User Avatar
+Hi, Let me check
+4:15 PM
+Just checked for the requirements
+4:27 PM
+One question
+4:32 PM
+image.pngimage.png
+4:32 PM
+Is correct this correspond relation?
+4:33 PM
+User Avatar
+no. the red bars are job names. each job belongs to a category ( „campinggaz“ in this example. but ignore those jobs, they are relic from a former version of this portal
+4:35 PM
+its a bit difficult to see because the category „coleman“ also has to subcategories called „gas“ and „camping“
+4:37 PM
+User Avatar
+understand
+4:38 PM
+WIll do
+4:38 PM
+JUL 24, 2021
+User Avatar
+Good Morning Kyrylo , hope everything is going well. If you have any questions please don't hesitate to ask them.
+10:47 AM
+User Avatar
+Sure
+10:54 AM
+Will update it asap
+10:54 AM
+User Avatar
+ok
+10:54 AM
+JUL 25, 2021
+User Avatar
+Hi Flroian
+8:34 AM
+Good morning
+8:34 AM
+Check it please
+8:34 AM
+Thanks
+8:53 AM
+User Avatar
+Good morning Kyrylo. Thx for your effort.
+9:00 AM
+Looks good but two things :
+1. It is not possible to select a subbrand only.
+2. The looks , when the column is collapsed is not good :
+9:01 AM
+Bildschirmfoto 2021-07-25 um 08.59.21.pngBildschirmfoto 2021-07-25 um 08.59.21.png
+9:01 AM
+User Avatar
+I added same script for the sub category same as main cateogry, butsub category selection does not work.
+9:06 AM
+If there is any solution, let me know
+9:06 AM
+will fix 2nd issue
+9:07 AM
+User Avatar
+hmm ... ok, fix the 2nd issue and i'll have a look at the first one, if you cannot fix it
+9:08 AM
+please keep in mind : subcategories must be dinstinguishable from top categories , even in the collapsed view
+9:12 AM
+User Avatar
+image.pngimage.png
+9:13 AM
+sent params with sub category ids to `updateSelectedTopCategories` function, but it's `bSelected` value is still `false`
+9:14 AM
+User Avatar
+ok, don't worry about that, i'll look into that later
+9:16 AM
+just make sure that, if i click on one subcategory only (when the top category is not selected), only that subcategory is selected
+9:17 AM
+User Avatar
+Ok
+9:20 AM
+`subcategories must be dinstinguishable from top`
+if you have any idea, let me knowplease
+9:21 AM
+could you create a milestone of €100 for this tasks?
+9:23 AM
+User Avatar
+You're the man for great UI concepts for me slightly smiling face emoji
+9:26 AM
+User Avatar
+thumbs up emoji
+9:28 AM
+User Avatar
+Personally i'd work with a thick visible border on the subcategories (in the collapsed view). And changing their label from something like "camping" into a abbreviation like "CMP". In fact there is already a defined "shortcut" column for each category (but only in my version as of now, gotta merge before it appears in yours)
+9:30 AM
+How about this : You try the border thing i suggested and integrate the possibility to display a second category label when the column is collapsed. That second label you can leave empty or fill it with something like "test", and i'll handle the assignment to the new category shortcut in the next version.?
+9:33 AM
+That second label is only needed for subcategories
+9:33 AM
+User Avatar
+Updated, check it
+9:34 AM
+User Avatar
+The updateSelectedTopCategories() (which is, by the way not 100% correctly labeled because it is updating ALL selected categoriy ids) is not firing on any click on the subcategories.
+9:38 AM
+User Avatar
+I dont understand
+9:39 AM
+It works for the subcategory ids, right?
+9:40 AM
+User Avatar
+ChatBot @ChatBot
+Kyrylo D. requested a milestone payment
+Milestone: '2nd task'
+Amount: € 100.00 EUR
+View Milestone
+9:41 AM
+User Avatar
+A selection of a single subcategory is not communicated to the backend, because the even doesn't fire. So the whole thing does not work as needed. The only thing i can do is select a top category and that's it. again : it must be possible to select a single subcategory only
+9:43 AM
+User Avatar
+Understand
+9:46 AM
+Will do
+9:46 AM
+User Avatar
+and, as i just came to see : "Select/Deselect" all is collapsing all top categories when selected, that must not happen. select/deselect all must not have any impact on the view besides selecting/deselecting all/none.
+9:49 AM
+User Avatar
+Understand
+9:49 AM
+Will do
+9:49 AM
+Done, check it
+9:58 AM
+User Avatar
+soon, breakfast first slightly smiling face emoji
+9:59 AM
+User Avatar
+ok emoji
+10:00 AM
+User Avatar
+When i select a subcategory there is still no update to the backend ... only when clicking a top category
+10:18 AM
+select/deselect all does work properly though
+10:19 AM
+User Avatar
+A selection of a single subcategory is not communicated to the backend,
+10:23 AM
+What update should be there when select a subcategory?
+10:24 AM
+User Avatar
+For instance : When all categories are unselected (grey) and you click just one subcategory, only the id of the selected subcategory must be transmitted.
+10:26 AM
+If X categories are selected and you select another sub-/category , all the selected (blue marked) categories must be transmitted.
+10:27 AM
+Goal is to keep a consistent representation of all selected categories in the session.
+10:27 AM
+User Avatar
+I understand, but I tried it already, work nothing with sub category ids
+10:28 AM
+Just updated
+10:29 AM
+User Avatar
+so you can't attach the event/function call to subcategories??
+10:30 AM
+User Avatar
+Do you want me to create new functions for restoring sub cateogry selections?
+10:32 AM
+it needs to edit the function of `ds` folder
+10:33 AM
+User Avatar
+It should be simple as firiing the updateSessionSelectedCategories() function, you made a screenshot of, this morning, when selecting a subcategory?
+10:35 AM
+User Avatar
+image.pngimage.png
+10:37 AM
+oh, enabled it.
+10:38 AM
+User Avatar
+still not firing ...
+10:39 AM
+User Avatar
+image.pngimage.png
+10:40 AM
+User Avatar
+cCategory is, most likely a typo/false.
+This code uses the "hungarian notation" with unique prefixes for typeless variables.
+"c" is not a regular Prefix. Most likely will be "oCategory" , in "o" for Object
+10:42 AM
+User Avatar
+it is reflected value of `bSelected`?
+10:42 AM
+User Avatar
+Bildschirmfoto 2021-07-25 um 10.44.08.pngBildschirmfoto 2021-07-25 um 10.44.08.png
+10:44 AM
+User Avatar
+cCategory is sub category
+10:44 AM
+a sub category*
+10:44 AM
+will change to sCategory
+10:45 AM
+User Avatar
+aCategories (array of category objects) is fed by the view to this template. and in this template a foreach loop iterates over all objects as oCategory.
+10:46 AM
+sCategory would be wrong because that would indicate a string content, not an object
+10:46 AM
+if you can't fix this right now, let it be for the moment. i gotta check out of my hotel in 15mins . if you can, push your code so i can review it more detailed. at the end of this day i'll release the milestone when all things are settled
+10:47 AM
+User Avatar
+OK, firstly create it
+10:48 AM
+sCategory is the name of the sub category.
+10:49 AM
+User Avatar
+ChatBot @ChatBot
+Florian S. created a milestone
+Milestone: '2nd task'
+Amount: € 100.00 EUR
+10:49 AM
+User Avatar
+Thank you
+10:49 AM
+User Avatar
+ok, will talk later.
+10:52 AM
+JUL 26, 2021
+User Avatar
+good morning kyrylo.
+9:29 AM
+sry, i could not review your code yesterday.
+9:29 AM
+We still have several issues with the current task:
+1. Subcategory selection still does not result in a update call to the backend like it is happening for the top categories.
+2. You did not use the branch i assigned you to work with. You committed into "development" and i told you to commit into "feature/multilevel_category_tile_selector".
+3. Minor issues but still unnecessary --> You committed part of your IDE internals (.vscode/sftp.json) into the repository.
+9:32 AM
+And i can't see that you changed anything besides the CSS?
+9:33 AM
+User Avatar
+Hi
+12:04 PM
+How are you?
+12:04 PM
+1. I have worked for UI side
+I will check for it again and update it
+12:05 PM
+2. I am working only for a development branch
+12:06 PM
+let me check for it again
+12:06 PM
+3. Sorry, that was my fault
+12:07 PM
+User Avatar
+hi
+12:12 PM
+User Avatar
+Yes
+12:12 PM
+User Avatar
+Concerning 2. --> It is essential that you work with the GIT branch i select/assign you. For this current issue, in order to avoid confusion, i'm accepting that you work with the "development" branch until this issue is finished. For every other task that comes up in the future please use the assigned branch ONLY.
+12:15 PM
+User Avatar
+Yes. will do
+12:16 PM
+JUL 27, 2021
+User Avatar
+Hi Florian,
+12:40 AM
+Just updated 'development' branch
+12:41 AM
+All issues are fixed.
+12:41 AM
+If I work on `feature/multilevel_category_tile_selector` branch, how to test the result?
+12:43 AM
+User Avatar
+Good Morning Kyrylo.Will check results soon. Concerning your question the workflow explained :
+1. I prepare a new branch for you.
+2. I update your server with that branch's code.
+3. You checkout that branch and transfer changed files directly to the server as usual.
+4. When you're finished i check the result and the next task starts at 1. again
+9:39 AM
+Alright, i checked your results. There is still that severe problem that the selection in the UI is NOT consistent with what is communicated to the backend. In fact, that hasn't got any better since yesterday.
+10:38 AM
+Bildschirmfoto 2021-07-27 um 10.32.20.pngBildschirmfoto 2021-07-27 um 10.32.20.png
+10:38 AM
+User Avatar
+sorry, let me check and update again.
+6:17 PM
+Just updated and pushed.
+7:30 PM
+bSelected of `subcategory` is not updated in backside.
+7:31 PM
+If there is any value to know whether selected or not the sub category, let me know please
+7:32 PM
+Thanks
+7:33 PM
+User Avatar
+Ok, the UI element itself is now working according to spec when it comes to selection logic and transmission of selected ids to the backend.
+I'll take it from here, merge the code with my branch and find out why the subcategory's bSelected is not properly set (it should, but obviously is not doing so) .
+7:48 PM
+i'll release the milestone now
+7:48 PM
+User Avatar
+Thank you
+7:48 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. released a milestone
+Milestone: '2nd task'
+Amount: € 100.00 EUR
+7:48 PM
+User Avatar
+sunglasses emoji thumbs up emoji
+7:49 PM
+User Avatar
+After i found out what the problem is, i will try to assign the next task to you
+7:50 PM
+User Avatar
+OK, I am always here for any problem.
+7:51 PM
+User Avatar
+Good to know thumbs up emoji
+7:51 PM
+I will likely get back to you tomorrow
+7:52 PM
+User Avatar
+OK, see you
+7:52 PM
+JUL 31, 2021
+User Avatar
+Hi, how are you?
+9:21 AM
+Any new job?
+9:22 AM
+I am waiting for you still.
+9:22 AM
+Looking forward to hearing you soon.
+9:22 AM
+Thanks
+9:22 AM
+Have a good weekend
+9:22 AM
+User Avatar
+Hi Kyrylo. I have alread some work prepared but the GIT/BitBucket-Server seems frozen/stuck today, sysadmin is on vacation and his substitute is not responding to my calls ... white frowning face emoji
+12:30 PM
+ok, seems like someone will fix it in a few hours
+1:17 PM
+Ok, i've update your DEV-Server and the DB and attached a new briefing to this project. For your code please use the new branch : "feature/ui_fixes_and_job_details"
+1:29 PM
+User Avatar
+Got it
+2:25 PM
+Thank you for your response
+2:25 PM
+AUG 01, 2021
+User Avatar
+Do you think you can finish today? I got a presentation on monday that i‘d like to include the results with
+11:41 AM
+User Avatar
+Hi
+1:33 PM
+What should to do now?
+1:34 PM
+Where can I check a new briefing you attached?
+1:35 PM
+User Avatar
+It's in the same location as the briefing before. Plus i shared it with you yesterday and did so just now.
+1:39 PM
+Bildschirmfoto 2021-08-01 um 13.39.07.pngBildschirmfoto 2021-08-01 um 13.39.07.png
+1:39 PM
+Did you receive the "share" ?
+1:40 PM
+briefing_20210731.pdf
+1:40 PM
+It's not much to do i guess, but it would be nice if you can have it done it by the end of the day.
+1:41 PM
+User Avatar
+Ah, sorry, I missed it yesterday
+1:43 PM
+Check for it just now and start the work soon
+1:43 PM
+Thanks
+1:43 PM
+User Avatar
+thumbs up emoji
+1:44 PM
+User Avatar
+Hi
+4:43 PM
+One question
+4:44 PM
+for a
+"feature/ui_fixes_and_job_details" branch...
+4:44 PM
+Should I create this branch newly or use one already created?
+4:45 PM
+I can't find the remote branch now
+4:45 PM
+User Avatar
+create it if you can‘t find it. maybe just a typo
+4:59 PM
+User Avatar
+in ds or coleman repo?
+5:28 PM
+It observed that should do it in ds repo.
+5:30 PM
+User Avatar
+coleman repo of course. sry, i should have been more specific
+5:35 PM
+User Avatar
+Got it
+5:44 PM
+WIll do
+5:44 PM
+Thanks
+5:44 PM
+User Avatar
+the changes briefed in the admin tool you may have to use the ds repo as well . if so pls use the branch feature/1.7.5
+5:52 PM
+User Avatar
+Got it
+6:07 PM
+User Avatar
+any news?
+9:42 PM
+User Avatar
+sorry, let me update tomorrow morning
+9:50 PM
+AUG 02, 2021
+User Avatar
+Hi, Good morning
+7:54 AM
+All updated. please check.
+7:55 AM
+image.pngimage.png
+7:58 AM
+I have no permission to write.
+7:58 AM
+User Avatar
+good morning. will check soon
+8:43 AM
+i upgraded your access to the ds repo
+8:58 AM
+User Avatar
+Thank you
+8:59 AM
+Will push soon
+8:59 AM
+User Avatar
+I just checked your work. Unfortunately there are multiple issues.
+9:04 AM
+First : I intented to have the part on the right side to have the same fields as briefed on the left side
+9:05 AM
+Bildschirmfoto 2021-08-02 um 09.03.07.pngBildschirmfoto 2021-08-02 um 09.03.07.png
+9:05 AM
+Now there is a abundance of fields i did not want and don't need.
+9:05 AM
+User Avatar
+Got it
+9:05 AM
+Will update soon
+9:06 AM
+User Avatar
+Second : The sliders are still exactly the same way they were before?
+9:06 AM
+Bildschirmfoto 2021-08-02 um 09.03.28.pngBildschirmfoto 2021-08-02 um 09.03.28.png
+9:06 AM
+User Avatar
+image.pngimage.png
+9:07 AM
+like this?
+9:07 AM
+User Avatar
+yes, concerning the layout. The colors should be kept
+9:08 AM
+User Avatar
+Okay, got it
+9:08 AM
+Will do soon
+9:08 AM
+please create milestone of €100
+9:08 AM
+User Avatar
+ChatBot @ChatBot
+Florian S. created a milestone
+Milestone: 'Third task'
+Amount: € 100.00 EUR
+9:10 AM
+User Avatar
+Thank you
+9:10 AM
+Just updated
+11:43 AM
+check it, It seems wrong `iType` for `Brand`
+11:44 AM
+Thanks
+12:10 PM
+Hi
+3:46 PM
+Have you checked?
+3:46 PM
+User Avatar
+yes, seems alright to me. i'll take it from there. I might have to revert the language additions because they miss the point and also have some funny "lost in translation" errors. But that's not a big deal.
+3:50 PM
+i did not expect you to put in correct german translations. slightly smiling face emoji
+3:51 PM
+User Avatar
+slightly smiling face emoji
+3:52 PM
+User Avatar
+e:G .
+'sku_no' =>'Sku Nein',
+sku = Is a abbreviation of "shelf keeping unit"
+and
+"no" = is the abbreviation of "number" in english.
+3:53 PM
+User Avatar
+Let me try to transalte it.
+3:54 PM
+User Avatar
+it's alright. you completed the task, i'll will update the translations later
+3:54 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. released a milestone
+Milestone: 'Third task'
+Amount: € 100.00 EUR
+3:55 PM
+User Avatar
+Thank you so much
+3:55 PM
+Anyway, I will try to push transaltion. which would be easier for you to update.
+3:56 PM
+User Avatar
+ok. i'll see if i can find additional tasks in the next few days
+3:56 PM
+User Avatar
+thumbs up emoji
+3:57 PM
+AUG 14, 2021
+User Avatar
+Hi, Florian, how are you?
+4:53 PM
+May I look forward to a new task soon?
+4:53 PM
+AUG 16, 2021
+User Avatar
+Hi Kyrylo. Sry, for being all silent in the last few weeks. Right now i'm on vacation but the customer just recently briefed some changes to the original concept. As soon as i can i will review these changes and i'm pretty sure that there will be a new task for you in this project.
+11:43 AM
+User Avatar
+Thank you for the update
+11:48 AM
+AUG 23, 2021
+User Avatar
+Hi Kyrylo. I'm preparing another task for you as we speak. Are you available today/tomorrow?
+11:34 AM
+User Avatar
+Yes, I am available
+12:57 PM
+THank you for the update
+12:57 PM
+User Avatar
+alright. new task will be assigned this afternoon (when i finish the preparations)
+12:58 PM
+User Avatar
+No problems
+12:58 PM
+slightly smiling face emoji
+12:58 PM
+User Avatar
+Alright, i shared a new briefing file with you. Please review and ask if anything is unclear.
+5:51 PM
+User Avatar
+Ok, Will do
+5:54 PM
+Thanks
+5:54 PM
+AUG 24, 2021
+User Avatar
+Good morning Kyrylo. Any ideas when you'll have the current task ready?
+11:37 AM
+User Avatar
+Hi, how are you?
+2:26 PM
+I am working now
+2:26 PM
+I will update it asap
+2:26 PM
+User Avatar
+thumbs up emoji
+2:28 PM
+AUG 25, 2021
+User Avatar
+Hi
+10:29 AM
+how are you?
+10:29 AM
+I can't find the repos you presented now
+10:29 AM
+sorry branches instead of "repos"
+10:29 AM
+image.pngimage.png
+10:30 AM
+these are the branches you presented at this briefing
+10:30 AM
+image.pngimage.png
+10:31 AM
+This is a screen for the branches I searched now
+10:31 AM
+there is no a branch as "feature/1.7.6" for the DSFW repo
+10:32 AM
+User Avatar
+Bildschirmfoto 2021-08-25 um 10.32.02.pngBildschirmfoto 2021-08-25 um 10.32.02.png
+10:32 AM
+Bildschirmfoto 2021-08-25 um 10.32.51.pngBildschirmfoto 2021-08-25 um 10.32.51.png
+10:32 AM
+they're both there but were created recently. maybe you have to update first?
+10:33 AM
+My IDE updates the branch listing using the following command :
+git -c core.quotepath=false -c log.showSignature=false fetch origin --recurse-submodules=no --progress --prune
+10:34 AM
+or simply "git fetch"
+10:35 AM
+User Avatar
+Oh~~ I found out them
+10:36 AM
+Ok
+10:36 AM
+User Avatar
+Hey. I just checked the Server and the Repo and could not find any progress/data. What's the hold up?
+3:56 PM
+User Avatar
+The work was delayed a little as some personal issues.
+I am working on it, so will update it in today.
+4:53 PM
+User Avatar
+ok, pls let me know when it's done
+4:53 PM
+User Avatar
+Sure
+4:54 PM
+AUG 26, 2021
+User Avatar
+still no update?
+1:03 PM
+User Avatar
+Hi, sorry for delay replying
+2:11 PM
+The work's almost done.
+You can check for it now.
+A gradient work is only remained
+I had to go to the hospital for the last few days.
+2:11 PM
+I will finish it soon
+2:11 PM
+User Avatar
+sry, to hear, hope you‘re fine
+2:17 PM
+User Avatar
+That's fine now.
+I just pushed the updates.
+The server was already updated.
+2:20 PM
+I will finish the remaining work asap
+2:20 PM
+Thanks
+2:20 PM
+User Avatar
+The job view needs a few fixes (see screen)
+2:42 PM
+User Avatar
+I missed these.
+Will do
+3:20 PM
+User Avatar
+thumbs up emoji
+3:21 PM
+User Avatar
+Hi
+11:46 PM
+All done
+11:46 PM
+Please check for it
+11:46 PM
+I'd like to suggest 150 for this Briefing.
+11:48 PM
+Thanks
+11:48 PM
+AUG 27, 2021
+User Avatar
+good morning kyrylo
+10:59 AM
+I checked your work and most of the items are now done.
+11:01 AM
+Unfortunately the filter criteria dropdown no longer works since your update (see attached screen of a previous working version)
+11:02 AM
+the problem here is that data-toggle=dropdown must be set and if you add/change that to data-toggle=tooltip , the dropdown disappears.
+11:05 AM
+if you can't come up with a quick solution to this, it's ok for me , as i don't want to keep this task open any longer.
+11:06 AM
+Concerning the proposed 150€ , i personally fail to see how this task was 50% more work than the previous ones, justifying that price hike.
+11:08 AM
+i would agree to payment of 120€ if that's alright with you
+11:09 AM
+User Avatar
+Hi, how are you?
+12:32 PM
+Understand the issue
+12:32 PM
+I will fix it soon
+12:33 PM
+Dropdown issue was fixed
+12:41 PM
+Please chcek for it
+12:41 PM
+User Avatar
+it's working
+12:42 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. created a milestone
+Milestone: 'Task 20210823'
+Amount: € 120.00 EUR
+12:44 PM
+User Avatar
+Regarding the price hike...
+The work was more taken than I expected for the gradient of the job detail and so I had wanted the upper payment.
+Ok, I will accept 120.
+12:45 PM
+Thank you
+12:45 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. released a milestone
+Milestone: 'Task 20210823'
+Amount: € 120.00 EUR
+12:45 PM
+User Avatar
+Thank you so much!
+12:45 PM
+User Avatar
+its alright, thank you for completing this task
+12:46 PM
+User Avatar
+This work was delayed a little as my personal matter, i am sorry for that.
+12:46 PM
+That's fine now
+12:46 PM
+User Avatar
+Health issues are a priority no matter what
+12:47 PM
+User Avatar
+Sounds good! thumbs up emoji
+12:47 PM
+Hope to work on a new briefing soon
+12:47 PM
+Thanks again
+12:47 PM
+User Avatar
+there will be a customer presentation in a few days. i'll try to create a new task after that but can't say for sure right now
+12:48 PM
+User Avatar
+No problems
+12:48 PM
+I am ready always for you
+12:49 PM
+User Avatar
+thx kyrylo, i appreciate that
+12:49 PM
+User Avatar
+Have a good day!
+12:49 PM
+slightly smiling face emoji
+12:49 PM
+User Avatar
+u 2 slightly smiling face emoji
+12:49 PM
+SEP 15, 2021
+User Avatar
+How are you?
+8:33 AM
+SEP 25, 2021
+User Avatar
+Hi
+9:17 PM
+NOV 01, 2021
+User Avatar
+Hi
+8:46 PM
+NOV 10, 2021
+User Avatar
+Hi Kyrylo. Sry, for not getting back to you for so long. As the completion of the project you worked on, finally is arriving, i'm happy to tell you that there will be more work in the near future for you (if you are still interested)
+10:11 PM
+NOV 11, 2021
+User Avatar
+I am interesting, Thank you
+2:16 AM
+NOV 15, 2021
+User Avatar
+Hi, How are you?
+7:28 PM
+NOV 22, 2021
+User Avatar
+Hi
+4:30 PM
+User Avatar
+Hi 🙋‍♂️
+4:31 PM
+User Avatar
+Hi
+4:41 PM
+How are you?
+4:41 PM
+I hope to work on a new task in near furture.
+4:42 PM
+User Avatar
+I'm fine, hope you , too
+4:42 PM
+As i said earlier , the project we worked together on is now complete ... or let's say the first release version is online and in production use.
+4:43 PM
+But there is (plenty) more in the pipeline.
+4:43 PM
+New tasks will require that you go in deep in PHP/Backend Programming, in addition to the mere frontend tasks you worked on in the past
+4:44 PM
+User Avatar
+Understand, no problems for both of frontned and php endpoint
+4:45 PM
+User Avatar
+Could you please check if you have still access to VPN/GIT/... with the credentials i provided to you a few months ago?
+4:47 PM
+User Avatar
+Yes, will do now
+4:47 PM
+vpn is alive still
+4:49 PM
+image.pngimage.png
+4:50 PM
+User Avatar
+Great slightly smiling face emoji How about GIT/BitBucket-Access?
+4:51 PM
+User Avatar
+That works as well.
+4:55 PM
+image.pngimage.png
+4:55 PM
+User Avatar
+Looking good
+5:00 PM
+Ok, here's the plan :
+1. I provide you with documentation to the proprietary PHP-Framework we're using. Unfortunately this documentation is rather incomplete and outdated but it should provide rough means of orientation.
+2. When you ingested the doc, i'll provide you with a fresh testing sandbox server and create a basic programming task for you.
+3. When i get the feeling that you're up to speed, we'll start the real work on my current project.
+
+Of course i'll compensate you for your efforts on 1.+ 2.
+
+As the our previous project is still active, i guess (but don't know for sure) , that we can simply add more milestones to it without having to create a new one.
+
+What do you say?
+5:09 PM
+User Avatar
+Ok, no problems
+5:12 PM
+User Avatar
+Great. I need 1-2days for preparation, but then we'll have a go.
+5:13 PM
+btw : What IDE are you using for PHP?
+5:14 PM
+User Avatar
+I am usgin normally vs code and xampp.
+If needed, I can also use other tools such as pdt, stom
+5:16 PM
+User Avatar
+Not a requirement, i was just curious. I personally use PHPStorm https://www.jetbrains.com/phpstorm/
+but that's entirely up to you.
+5:18 PM
+User Avatar
+Ok
+5:19 PM
+User Avatar
+Alright then. I'll begin preparations and you can expect to hear from me in 1-2 days. Then we can start as i described.
+5:21 PM
+User Avatar
+No problems.
+Thank you again for your efforts for me.
+5:22 PM
+Will be waiting for you.
+5:22 PM
+User Avatar
+You're welcome slightly smiling face emoji
+5:22 PM
+User Avatar
+Have a good day! thumbs up emoji
+5:23 PM
+User Avatar
+Same to you, bb
+5:23 PM
+NOV 25, 2021
+User Avatar
+Hey Kyrylo. Just a quick heads-up from me. I need more time to prepare the documents and the task as there are some key doc missing atm. Expect 1-2days delay. Sorry , i'll get back to you as fast as i can.
+6:38 PM
+User Avatar
+Ok, No problems
+6:55 PM
+Will wait for you.
+6:55 PM
+NOV 28, 2021
+User Avatar
+Hey Kyrylo. Please find attached a PDF that explains some basic stuff about the proprietary PHP-Framework the customer uses. I'm afraid some of it is in german , but, together with the code you have access to. Sholud help you to get a basis understanding of how things are done with this software. Please feel free to ask questions. A lot of it is not self-explaining i guess, and the documentation is currently quite bad.
+
+When you ingested this doc, we can move on to the first real task. That'll be a extension of the project you alread worked on "Coleman". I've already updated your dev server instance with the latest version and database. I'll try to give you the specific briefing tomorrow.
+9:56 PM
+dsfw_introduction.pdf
+9:56 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. created a milestone
+Milestone: 'Read&Understand provided Documentation.'
+Amount: € 60.00 EUR
+9:57 PM
+User Avatar
+Thank you!
+I will do
+10:07 PM
+NOV 29, 2021
+User Avatar
+Hi
+11:49 AM
+How are you?
+11:49 AM
+I did review carefully the document.
+11:49 AM
+Most contents were written in German, so I couldn't read it, however I understood basically DSFW's system logic via the flow diagrams and some contents.
+11:49 AM
+As I understood...
+The DSFW is based on the MVA model.
+M-model (data model)
+V-view(user interface-ds_view, template engine)
+A-adapter(control-access, action...)
+11:50 AM
+I also understood 2 ways how to access a special entity within the ecosystem.
+11:50 AM
+I hope we are able to ahead a new brief soon.
+11:51 AM
+Thanks in advance!
+11:51 AM
+User Avatar
+Hi
+11:53 AM
+Sry, for the german documenation . This happened because the original file disappeared and i had only screenshots from that.
+11:54 AM
+The most "learning" will come to you when you start with the first programming task.
+I'm creating a briefing for this as we speak , but have to wait for feedback from my customer for some things, yet unclear/unspecified.
+11:56 AM
+I will update the DSFW-Documentation regularly from now on. Shedding more light on implementation details and call/response scheme.
+11:56 AM
+User Avatar
+ChatBot @ChatBot
+Florian S. released a milestone
+Milestone: 'Read&Understand provided Documentation.'
+Amount: € 60.00 EUR
+11:57 AM
+User Avatar
+Ok, Thanks
+11:57 AM
+I will review enough the detailed documents
+11:58 AM
+Thank you for your payment
+11:58 AM
+User Avatar
+thumbs up emoji
+11:58 AM
+User Avatar
+Will do my best try for the project in the future
+11:58 AM
+thumbs up emoji
+11:59 AM
+Will be waiting for new updates
+11:59 AM
+Have a great day!
+11:59 AM
+User Avatar
+2U.
+12:00 PM
+I'll get back to you as soon as the briefing for the upcoming task ist complete ... or at least mostly completet ;-)
+12:00 PM
+User Avatar
+Thanks agian
+12:00 PM
+DEC 07, 2021
+User Avatar
+Hi Kyrylo. Finally i found the time to create a proper briefing for you. Please be so kind and review it (newest upload in the "Files" section). When you are finished please let me know any questions you have prior to start and an estimate of the costs if possible.
+4:10 PM
+User Avatar
+Thank you
+4:18 PM
+Let me check for it now
+4:18 PM
+I just checked the document and understood it basically.
+5:26 PM
+API: statistics_GetWorkloadData( )
+params: job type
+response: Array[{date: [ 5 items ]},...], maxLength=14
+5:27 PM
+One question
+When calculating the B2O deadline how is it to get local holidays?
+5:27 PM
+I can complete it for 3 days.
+5:30 PM
+User Avatar
+Don't worry about that. The B2O will be calculated BUT the customer can change it. Thats true for the "new job" form as well as the "deadlines" block in the job detail view.
+So, when you have the job, you can read the B2O from the attached "deadlines" block (db: wjt_block_deadlines, referenced from wjt_job) .
+5:32 PM
+User Avatar
+Ok, understand
+5:33 PM
+I'd like to estimate 300 for this.
+5:35 PM
+User Avatar
+That's ok
+5:37 PM
+User Avatar
+Thanks
+The work will be faster from the next task.
+5:38 PM
+User Avatar
+It'll get easier each time you work with this portal/framework code
+5:38 PM
+User Avatar
+Sure
+5:39 PM
+User Avatar
+It'll be great if you can adapt the coding style of the already existing functions in the API class. And i can't stress this enough : Ask questions anytime, no matter how "stupid" you feel they may sound.
+5:40 PM
+User Avatar
+Sure, I will do.
+I will never hesitate to any questions or concern.
+5:43 PM
+I will start the work soon.
+5:43 PM
+User Avatar
+Alright, l8tr
+5:44 PM
+User Avatar
+Yes.
+5:44 PM
+It's 17:45 now here
+5:45 PM
+User Avatar
+One thing i forgot : Please refrain from pushing any code to the dsfw branch (release/1.7.6). IF you need to add changes to the DSFW, please let me know it first and i will give you a new branch to push to
+5:45 PM
+16:45 here slightly smiling face emoji
+5:46 PM
+User Avatar
+Yes, I will do that
+5:46 PM
+User Avatar
+ChatBot @ChatBot
+Kyrylo D. requested a milestone payment
+Milestone: 'Briefing-20211207'
+Amount: € 300.00 EUR
+View Milestone
+5:48 PM
+Florian S. created a milestone
+Milestone: 'Briefing-20211207'
+Amount: € 300.00 EUR
+5:53 PM
+User Avatar
+Tahnk you!
+5:58 PM
+User Avatar
+No prob. It's rather large amount for a function that likely will be 20-30 lines of Code but the difficulty here is the "getting to know" of the surrounding code and system, so it is justified for this task i think
+6:00 PM
+User Avatar
+Cool!
+6:01 PM
+DEC 08, 2021
+User Avatar
+Hi Florian
+4:09 PM
+It seems that account was disabled on server url.
+4:11 PM
+User Avatar
+Which one? GIT/VPN/Coleman-Portal?
+4:12 PM
+User Avatar
+image.pngimage.png
+4:12 PM
+User Avatar
+hang on
+4:13 PM
+you#re right
+4:14 PM
+Bildschirmfoto 2021-12-08 um 15.13.18.pngBildschirmfoto 2021-12-08 um 15.13.18.png
+4:14 PM
+Ok, plz try again
+4:14 PM
+User Avatar
+That's work now
+4:15 PM
+Thank you!
+4:15 PM
+User Avatar
+thumbs up emoji
+4:15 PM
+User Avatar
+thumbs up emoji
+4:15 PM
+Can I see this page there?
+4:22 PM
+image.pngimage.png
+4:22 PM
+This is a screen I logged in
+4:23 PM
+image.pngimage.png
+4:23 PM
+User Avatar
+The main app is call "PAT" (Packaging Artwork Tool). There you can find the "new job" form when clicking on the main menu.
+4:25 PM
+Normally this app is called "WJT" , just for this customer it is called "PAT" . I'm saying this because the codespace name stays "wjt"
+4:27 PM
+User Avatar
+I saw it
+Ok, Thank you
+4:29 PM
+DEC 11, 2021
+User Avatar
+Hi
+6:30 PM
+I didn't work for 2 days as bad health.
+I am fine now and hard working, so the work is going well.
+I will finish the work today.
+One question
+Please check for db entry for B2O and D2V of each job.
+6:30 PM
+image.pngimage.png
+6:32 PM
+I have got a joblist included that Blockdeadlines to calculate an API array. It seems the data in DB value was broken there.
+6:36 PM
+I am sorry for delaying the work.
+I will do my best try for the project asap.
+6:42 PM
+Looking forward to hearing you soon.
+6:43 PM
+Thank you
+6:43 PM
+User Avatar
+Hi. What do you mean with "Please check for db entry for B2O and D2V of each job."
+
+The D2V date is not part of the calculation i briefed !?
+8:16 PM
+Here's a code snippet to get the job's deadlines data. :
+8:21 PM
+Bildschirmfoto 2021-12-11 um 19.20.46.pngBildschirmfoto 2021-12-11 um 19.20.46.png
+8:21 PM
+User Avatar
+Understand the code screen
+8:22 PM
+however
+8:22 PM
+User Avatar
+Odd thing here is the "B2O"-Date ist called the "Artwork Deadline" and "D2V" "Deliver Deadline"
+8:22 PM
+That's because they changed the wording of "B20" like 4 times ...
+8:22 PM
+User Avatar
+On th app running what's the reason that all B2Os are displayed as "1970-01-01..."
+8:25 PM
+image.pngimage.png
+8:25 PM
+Also I got the Blockdeadlines of each job like above code
+8:26 PM
+They are also comeing as "1970-01-01.."
+8:27 PM
+image.pngimage.png
+8:28 PM
+image.pngimage.png
+8:29 PM
+User Avatar
+hmm the values are consistent with the database entries ...
+8:29 PM
+seems like there was something wrong when these jobs got batch-imported. i'll try to update the DB asap (might be tomorrow morning) .
+8:31 PM
+your code : seems fine, but you should move the instantiation of the block inside the loop.
+8:31 PM
+User Avatar
+Yes, I will do.
+That's only draft code ccurrently
+8:32 PM
+One more
+8:32 PM
+User Avatar
+i have a good feeling about this. thumbs up emoji
+8:33 PM
+User Avatar
+image.pngimage.png
+8:34 PM
+Can I get this data in which module?
+8:35 PM
+I think that is an estimated hours of each job
+8:35 PM
+User Avatar
+See the DB screen in the briefing
+8:36 PM
+User Avatar
+image.pngimage.png
+8:37 PM
+Is thid right?
+8:37 PM
+this*
+8:39 PM
+User Avatar
+yes
+8:39 PM
+User Avatar
+Ok
+8:39 PM
+I can get that on wjt_job_type table
+8:40 PM
+I will do
+8:40 PM
+Thank you for your time
+8:40 PM
+Once the db is updated please let me know it.
+8:40 PM
+then I will update it soon.
+
+I am sorry for bothering you weekend.
+Have a good weekend.
+8:41 PM
+thumbs up emoji
+8:42 PM
+User Avatar
+Its alright thumbs up emoji
+8:43 PM
+DEC 12, 2021
+User Avatar
+Good Morning. I've just updated the DB of your "Coleman" instance to the latest from LIVE.
+Hint : You can create any number of jobs by yourself to test your code if you like.
+All mails the system will create are currently rerouted to a debugging address and the portal logging system is set to "Debug" for your convienience. (I guess you alread discovered the logging mechanism and the logfiles in /WEBROOT/log/
+12:21 PM
+I also encourage you to use unit testing for your development.
+Unit-Tests are placed unter /WEBROOT/test/ and can be run by e.G. :
+sudo -u www-data phpunit coleman/wjt/APITest.php --bootstrap=_bootstrap.php
+12:22 PM
+User Avatar
+Thank you.
+6:34 PM
+I will new update soon
+6:34 PM
+Have a great weekend
+6:35 PM
+slightly smiling face emoji
+6:35 PM
+DEC 13, 2021
+User Avatar
+Please check the updated api.
+1:27 AM
+image.pngimage.png
+1:27 AM
+Thanks
+1:28 AM
+User Avatar
+Thx Kyrylo. First look is good. Will check it later in detail.
+10:47 AM
+User Avatar
+THank you.
+I will be waiting for your feedback
+10:57 AM
+User Avatar
+Hello
+10:06 PM
+How are you?
+10:06 PM
+DEC 14, 2021
+User Avatar
+Hi.
+12:07 PM
+How can i test your implementation? I don't see any pushed code in BitBucket?
+12:08 PM
+User Avatar
+Hi
+2:52 PM
+I was waiting for your reply. sorry, i will push soon
+2:53 PM
+Done. Please check the branch feature/workloadstat
+3:00 PM
+DEC 15, 2021
+User Avatar
+Hi Kyrylo. I've checked your work. Good job on adapting the general code style and generally for getting your head around the existing code.
+Unfortunately you did not provide a unit test and when i added that (in a most simple) way the code crashes.
+This is most likely because of your reliance on a existing session+session job filter to retrieve all the jobs.
+I fixed that part for you (now retrieving ALL "Active" jobs that are not flagged as "archive") but now more problems occur.
+Please fix so that the unit test (Run as root from the "test" dir) --> sudo -u www-data phpunit coleman/wjt/APITest.php --bootstrap=_bootstrap.php
+
+Outputs the array on cmdline.
+11:59 AM
+This is the change i made :
+11:59 AM
+Bildschirmfoto 2021-12-15 um 10.59.12.pngBildschirmfoto 2021-12-15 um 10.59.12.png
+11:59 AM
+Bildschirmfoto 2021-12-15 um 10.59.44.pngBildschirmfoto 2021-12-15 um 10.59.44.png
+12:00 PM
+This is the current output of the Unit-Test :
+12:00 PM
+User Avatar
+first, it seems this is code I did add for the Unit test a few hours ago.
+12:14 PM
+image.pngimage.png
+12:14 PM
+image.pngimage.png
+12:16 PM
+I added it for unittest but hadn't been run it yet.
+12:16 PM
+I was in reviewing unit test of the framework.
+12:17 PM
+User Avatar
+Your last commit did not include any test?
+12:18 PM
+Bildschirmfoto 2021-12-15 um 11.18.03.pngBildschirmfoto 2021-12-15 um 11.18.03.png
+12:18 PM
+User Avatar
+Yes, I didn't it push
+12:19 PM
+User Avatar
+btw : assertTrue(...) on a array value is not a good way of testing. assertTrue(is_array(...)) is better
+12:19 PM
+ok, pls be sure to push all changes before notifying me to make a review. otherwise it will get confusing
+12:20 PM
+User Avatar
+Yes,
+12:20 PM
+Currently, there is only change for the unit test above
+12:21 PM
+Do you want me to push the code?
+12:21 PM
+User Avatar
+Pull my changes (they will merge), then carry on
+12:22 PM
+User Avatar
+Yes, Will do
+12:22 PM
+It's observed that my last commits for that API were changed by someone.
+Anyway, I will push my code again for now.
+12:38 PM
+Done
+Please check for it again
+12:41 PM
+User Avatar
+Did you read my messages above correctly? I DID change a part of your code because it will not work in a unit test scenario AND is the wrong way to get a proper job list (see my statement and the diff screen i provided)
+12:43 PM
+Right now i can only see that you changed that back ...
+12:44 PM
+User Avatar
+Ah~~ sorry.
+I will back to your code again
+12:45 PM
+Hi
+1:44 PM
+image.pngimage.png
+1:45 PM
+Could you provide a password to access with sudo permission?
+1:45 PM
+I tried it with dc6_igFTIGgv!
+1:46 PM
+image.pngimage.png
+1:46 PM
+I got this
+1:47 PM
+User Avatar
+that's the password for the studio account. for using sudo you need to type "su -" (don't forget the minus) to become root
+1:47 PM
+root pw for the machine you're on is : ka3D_DJj-MOd?
+1:47 PM
+User Avatar
+Hi
+2:20 PM
+I just updated
+2:20 PM
+Please check for it again
+2:20 PM
+User Avatar
+will do soon
+2:23 PM
+FAILED
+User Avatar
+thumbs up emoji
+3:11 PM
+User Avatar
+Alright, code seems fine and the unit test is working. I guess we can call Phase1 completet
+3:11 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. released a milestone
+Milestone: 'Briefing-20211207'
+Amount: € 300.00 EUR
+3:12 PM
+User Avatar
+Thank you so much
+3:29 PM
+Looking forward to next phase slightly smiling face emoji
+3:30 PM
+User Avatar
+Thank you for your effort. Phase2 (Integration of the App that makes use of the data) will be available within a few days.
+3:31 PM
+User Avatar
+thumbs up emoji
+3:32 PM
+DEC 17, 2021
+User Avatar
+Hi, Florian
+How are you?
+I am looking forward to the next task still.
+9:12 AM
+Thanks
+9:12 AM
+Have a good day!
+9:12 AM
+JAN 17, 2022
+User Avatar
+Hi Kyrylo. Happy new year (i know its kinda late) :-)
+11:28 AM
+User Avatar
+Happy new year! slightly smiling face emoji
+11:33 AM
+User Avatar
+Sorry, for not responding for so long but i was completely overwhelmed with work, family etc.
+11:34 AM
+User Avatar
+That's fine.
+I wish we are able to go together still on the project in this year too.
+11:36 AM
+User Avatar
+We will! I'm about to finish the briefing for Phase2 of the project you worked on. Will get back to you later today with details.
+11:38 AM
+User Avatar
+Thanks
+11:39 AM
+User Avatar
+Short update: I'm still waiting on a detail info from the customer on the upcoming task that arose today.
+Will keep you updated
+7:14 PM
+User Avatar
+No problems
+7:15 PM
+When you are ready please let me know it
+7:15 PM
+I am always open for you.
+7:16 PM
+Thanks
+7:16 PM
+JAN 18, 2022
+User Avatar
+Hi
+1:12 PM
+I just shared the briefing for the follow-up task of the last one. Please have a look at it and tell me what you think.
+1:13 PM
+User Avatar
+Thanks. let me check it
+2:41 PM
+Hi
+4:58 PM
+Can you check for the credential to login to website?
+4:59 PM
+User Avatar
+ok, hang on
+4:59 PM
+User Avatar
+I tried it with
+id: k-dev@sub-netz.de
+pass: kD3v21Hu3
+4:59 PM
+image.pngimage.png
+5:00 PM
+User Avatar
+pls try again now
+5:00 PM
+User Avatar
+image.pngimage.png
+5:01 PM
+Should I do something now in order to have a new credential?
+5:08 PM
+User Avatar
+mom
+5:09 PM
+ok, i think now it will work
+5:10 PM
+Your account was not only deacticated but your password validity time expired 2days ago ...
+5:10 PM
+User Avatar
+Ok, that works
+5:12 PM
+User Avatar
+thumbs up emoji
+5:12 PM
+User Avatar
+Hi
+6:26 PM
+I checked the document.
+I'd like to clarify some points.
+6:26 PM
+User Avatar
+ok
+6:26 PM
+User Avatar
+- On the first requirement
+Is meaning that an ERP widget should add to the Dashboard as one section?
+6:26 PM
+Screenshot_6.pngScreenshot_6.png
+6:26 PM
+User Avatar
+yes
+6:27 PM
+User Avatar
+one thing
+6:27 PM
+- On the second requirement
+Is meaning that navigation called "Employee resource panning" should add to the menu and a calendar page should display by it?
+6:28 PM
+Screenshot_7.pngScreenshot_7.png
+6:28 PM
+User Avatar
+yes. that "calendar page" is the erp tool. one can click on each day and enter a simple value in a popup. Code exists already but has to be adapted
+6:29 PM
+User Avatar
+Ok, understand
+6:30 PM
+For first requirement, should I implement newly it or can I update from original code?
+6:32 PM
+I understood that I can update from the original implementation code for both of 2 requirements.
+6:33 PM
+User Avatar
+Take the existing erp widget view class, throw out everything you don't need (because we have the API function you implemented in Phase1)
+6:34 PM
+exactly
+6:34 PM
+The widget shows data from both. The function you already implemented and the data the user can enter in the ERP tool
+6:35 PM
+User Avatar
+Okay, understand
+6:36 PM
+User Avatar
+It SHOULD be a relatively simple task .)
+6:36 PM
+User Avatar
+I will start the work soon
+6:38 PM
+I'd like to suggest a total 400 as 200 per requirement.
+deadline: 3days
+6:46 PM
+User Avatar
+I'm sry, but that won't work out. The code is mostly present and i fail to see why it would take you 10 Hours+ (40$/hour is your profile rate) for integration.
+6:50 PM
+200.- for the whole task is reasonable i think.
+6:51 PM
+User Avatar
+Well, I didn't check the original code yet.
+I thought that I can't expect correctly now if which issues will happen to integrate the original code with the project(add a widget and a page).
+I will follow your quote but if 250 its would be better, I think.
+6:59 PM
+User Avatar
+ok, i agree
+7:00 PM
+User Avatar
+thanks
+7:00 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. created a milestone
+Milestone: 'Task 20220117'
+Amount: € 250.00 EUR
+7:02 PM
+User Avatar
+Great
+7:02 PM
+Will do my best try for the project still
+7:03 PM
+User Avatar
+thumbs up emoji
+7:03 PM
+User Avatar
+thumbs up emoji
+7:03 PM
+Have a good evening! slightly smiling face emoji
+7:04 PM
+User Avatar
+you 2
+7:04 PM
+JAN 21, 2022
+User Avatar
+Hi Florian
+Good mornign
+7:18 AM
+I am working ERP-Widget(first requirement) now and I have the following question.
+7:18 AM
+In coleman/wjt/views/ERPWidget class, the PPS class points a path not existing.
+That is, the PPS class called there isn't exist really in that path(coleman/wjt/adapters/).
+7:18 AM
+image.pngimage.png
+7:19 AM
+image.pngimage.png
+7:21 AM
+User Avatar
+Hi!
+12:07 PM
+User Avatar
+Hi
+12:07 PM
+User Avatar
+The PPS is from the portal i copied some of the classes from.PPS class is not really needed . In this portal there is only one PPS and thats „Das Studio“ . The widget view will take most of its data from the function you implemented in the previous task
+12:10 PM
+User Avatar
+image.pngimage.png
+12:13 PM
+If so, I should customize here the data displayed on the table.
+12:13 PM
+correct?
+12:13 PM
+User Avatar
+what do you mean by customize?
+12:14 PM
+User Avatar
+That is meaning of handle data to assign to that tpl file.
+12:15 PM
+*handling
+12:16 PM
+I understood as that part is code to make data assigning to tpl.
+12:17 PM
+User Avatar
+widget should display data from the function plus the data entered in the erp tool. If its doing that it is fine for me
+12:20 PM
+User Avatar
+I see
+12:21 PM
+The ERPWidget should display data from statistics_GetWorkloadData API function and data entered in AdminERP tool.
+is correct?
+12:25 PM
+User Avatar
+yes
+12:25 PM
+User Avatar
+Ok
+12:25 PM
+User Avatar
+Hi
+9:47 PM
+ERP widget was updated
+9:47 PM
+Please check for it on website
+9:48 PM
+User Avatar
+thx kyrylo. but i‘m afraid i can only check tomorrow morning .
+9:49 PM
+User Avatar
+image.pngimage.png
+9:52 PM
+Ok, No problems
+9:52 PM
+I wanted to confirm if this work is done correctly.
+9:53 PM
+User Avatar
+seems fine … but i‘m on mobile and not able to give qualified feedback
+9:56 PM
+User Avatar
+Ok, I will work continuously, so I will finish all the work on the weekend.
+Seems the work takes more effort than I expected.
+Will do my best try...
+9:59 PM
+User Avatar
+thumbs up emoji i‘m confident that you will be successful
+10:00 PM
+User Avatar
+One thing
+As my personal matter...
+If possible can you please release the milestone first only this time?
+I just need the money now.
+But hope you'll not get stressed for this.
+10:02 PM
+Have a good weekend!
+thumbs up emoji
+10:02 PM
+User Avatar
+No worries. i can do that since we‘ve worked together good in the past and i trust you.
+10:05 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. released a milestone
+Milestone: 'Task 20220117'
+Amount: € 250.00 EUR
+10:06 PM
+User Avatar
+Thank you so much
+10:07 PM
+I will fiinish the work asap
+10:07 PM
+JAN 22, 2022
+User Avatar
+Hi Florian
+11:16 PM
+How are you?
+11:16 PM
+Regarding AdminERP calendar, I have some questions
+11:17 PM
+I updated to add navigation called "Employee Resource Planning" into the menu and to display a calendar by it.
+As see, currently, the calendar displays as one page fully without a nav menu and data is missed in a Select element on top right in above of the calendar. That's a wrong display.
+11:17 PM
+As I reviewed the code, seems some files were missed for AdminERP module.
+11:17 PM
+coleman/system/adapters/
+ds/system/adapters/
+11:17 PM
+At least, some files related to Admin module should be in these paths, I think
+11:18 PM
+Next. Data of Select element mentioned is dependent on PPS.
+11:20 PM
+image.pngimage.png
+11:26 PM
+JAN 23, 2022
+User Avatar
+Hi Kyrylo
+12:19 PM
+Last question first. You don't have to assign the aPPS template var because there are no PPS in the coleman system besides DAS STUDIO. To work this out i suggest the select element to be hidden an having a preselected option with the value of 1
+12:20 PM
+As for the "full page" problem : You have to use another trigger "MenuItemActionJSCall" (using the real classname instead of the name of the route) in the desk menu model.
+12:30 PM
+Bildschirmfoto 2022-01-23 um 11.28.47.pngBildschirmfoto 2022-01-23 um 11.28.47.png
+12:30 PM
+(see .system.models.Admin mode
+12:31 PM
+sry.
+12:31 PM
+(see coleman.system.models.Admin for reference)
+12:31 PM
+User Avatar
+Got it. Thank you
+1:19 PM
+Hi,
+4:28 PM
+Calendar is displayed correctly
+4:28 PM
+One question
+4:28 PM
+On the calendar
+Original code calls an API called "adminErp_SetAvailableWorkersForDayAndPPS" to save availableWorkers.
+As I reviewed the whole code, that API doesn't exist currently.
+If so, should I create that API on this briefing?
+4:28 PM
+image.pngimage.png
+4:29 PM
+User Avatar
+hang on ... the function is really missing in coleman. checking now
+4:52 PM
+Alright, pls update your GIT. I added the missing function and already modified it to work with coleman. I also added the PPS model/adapter (needed for the unit test to complete)
+4:59 PM
+User Avatar
+Let me check
+5:00 PM
+That API works
+5:08 PM
+JAN 24, 2022
+User Avatar
+Hi
+I hope you had a great weekend.
+Currently the minor works remain to display the available workers and so I will finish it within a few hours
+12:45 PM
+Also, I hope to work on a new briefing soon.
+12:46 PM
+User Avatar
+Don't worry , there is plenty of work. to come. (Depending on my main customer's workload)
+1:11 PM
+User Avatar
+Hi, Florian
+8:44 PM
+All done
+8:44 PM
+Please checke for it
+8:44 PM
+User can enter available-workers on the calendar.
+AvailableWorkers entered is displayed on AdminERP and ERPWidget
+8:46 PM
+User Avatar
+good news! will check tomorrow morning
+10:43 PM
+JAN 25, 2022
+User Avatar
+Hi
+11:52 AM
+I've checked your work and have to issues/questions.
+1. When the user enters a value of Zero in the ERPAdmin the ERP entry should be deleted (instead of showing 0 Workers) .
+2. All columns in the ERPWidget show exactly the same data (except workers per day). Are you sure this is correct?
+11:54 AM
+User Avatar
+Sure
+5:58 PM
+for 1
+That displays O workers.
+Ok, I will update it
+7:08 PM
+for 2
+I am sure the data
+7:08 PM
+I just updated for 1 point and pushed it.
+Please check for it again
+7:15 PM
+JAN 26, 2022
+User Avatar
+Hi
+1:48 PM
+The fix you applied did work. BUT , as i updated the DB with the latest jobdata from the LIVE-DB, the ERP-Widget displays complete nonsense data.
+Look at the first row for example. How can "utilization hours" be negative? And if its negative how can -9.24 of 6.96 be 42.97 percent? Please check soon. I was trying to present the work to the customer this afternoon and i can't go through with it like this.
+1:52 PM
+Bildschirmfoto 2022-01-26 um 12.48.17.pngBildschirmfoto 2022-01-26 um 12.48.17.png
+1:52 PM
+User Avatar
+let me check
+3:32 PM
+Hi
+3:52 PM
+image.pngimage.png
+3:52 PM
+User Avatar
+if you make changes plz commit/push to new branch feature/jan2022additions
+3:53 PM
+User Avatar
+Please check for it again basing this logic
+3:53 PM
+I confirmed that the current result works correctly as the logic.
+3:55 PM
+User Avatar
+oh boy ... i see. I still can't get my head around the util. percent value but you're right. IF this calc is messed up, than it happened in the xls before.
+3:57 PM
+I'm gonna present this to the customer ... maybe he can make sense of it or he will have to change the spec ... in which case you'll have to change it (for extra money of course)
+3:58 PM
+User Avatar
+image.pngimage.png
+4:03 PM
+Ok, understand
+4:03 PM
+I just pushed the updates fo 2 decimals on Hours needed column.
+4:06 PM
+JAN 28, 2022
+User Avatar
+Hi Florian
+Hope to have no any issues in the last work.
+Also hope to I can work on a new task soon.
+8:32 PM
+Thanks
+8:33 PM
+FEB 20, 2022
+User Avatar
+Hi Kyrylo. Sry, for not being present the last few weeks. Hope you are alright! News/Situation seem to get worse by the day ...
+8:04 PM
+User Avatar
+I hope you are well.
+8:42 PM
+User Avatar
+I'm fine besides having been working too much. I'll try to find the time to brief new work units for you within the next 7 days.
+9:33 PM
+FEB 21, 2022
+User Avatar
+Thanks
+1:11 AM
+FEB 24, 2022
+User Avatar
+Woke up today to the (still) unbelievable News. So sorry. I hope you're out of harms way. Stay safe, Kyrylo, wish you the best.
+12:38 PM
+User Avatar
+Thanks so much, Florian for your support.
+I hope that this will end soon.
+The south region here it's safe so far.
+12:46 PM
+So far only military objects are being under attack.
+There are bombings around adn within Kiev and major Ukrainian cities.
+12:48 PM
+User Avatar
+I really, really hope it doesn't get much worse. But with a madman like Putin as de-facto dictator of RUS, i can' t imagine what will happen.
+12:51 PM
+User Avatar
+white frowning face emoji
+12:53 PM
+FEB 25, 2022
+User Avatar
+Just checking in on you. Hoping you and your family are alright. Still can't believe this is really happening
+12:58 PM
+User Avatar
+Thank you
+4:04 PM
+MAR 02, 2022
+User Avatar
+Hi Kyrylo. How are you holding out over there? If there is a way i can help, let me know!
+12:35 PM
+User Avatar
+Thank you. I and my family are in a safe place already.
+3:21 PM
+User Avatar
+Really good to hear!
+3:23 PM
+User Avatar
+It would be helpful for me what you assign project with a good payment.
+3:23 PM
+User Avatar
+I‘m looking into it with priority! I simply wasn‘t sure if it would be possible for you to work.
+3:26 PM
+User Avatar
+No problem to work. Looking forward to getting tasks
+3:28 PM
+User Avatar
+ok, i got you on this. afaik there are todos for the „coleman“ project you already worked on.
+3:29 PM
+will clarify with the customer later
+3:30 PM
+User Avatar
+Great! Thanks
+3:30 PM
+MAR 04, 2022
+User Avatar
+Hi. I have shared another briefing with you. Although i'm afraid it's nothing big, i rooted for you in order to let you in on some more projects besides "Coleman".
+For this weekend i can offer you the following :
+Its a rather simple task on a old and much less complicated "application".
+Plz see the new briefing file and let me know if you can do it. Budget for this is 200.- Eur.
+6:30 PM
+User Avatar
+Hi, Thank you
+6:34 PM
+I understand. I can do it.
+7:10 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. created a milestone
+Milestone: 'Task 20220304'
+Amount: € 200.00 EUR
+7:11 PM
+User Avatar
+Task 1
+- Create three new fields in Frontend-UI and Database (One field for L,
+one for A, and one for B).
+- Add a function for exporting stored data as CSV
+
+Task 2
+Change view
+7:12 PM
+User Avatar
+If you CAN beautify it a bit, so it doesn't look as shitty as it is now. But that's no requirement slightly smiling face emoji
+7:13 PM
+User Avatar
+Got it. I will update it.
+7:14 PM
+User Avatar
+thumbs up emoji
+7:14 PM
+MAR 05, 2022
+User Avatar
+Hi
+8:54 PM
+http://legend-dev-ext.das-studio.de/
+8:54 PM
+I can't access to this domain
+8:54 PM
+vpn was connected correctly and git repo was clonned successfully as well.
+8:55 PM
+sftp works correctly.
+8:56 PM
+User Avatar
+you need to edit your HOSTS file . then the domain/url will work
+8:57 PM
+/etc/hosts on linux , same on mac os, windows hosts file is located in a different dir
+8:58 PM
+User Avatar
+Ok. that works
+9:01 PM
+Thanks
+9:01 PM
+User Avatar
+thumbs up emoji
+9:02 PM
+MAR 07, 2022
+User Avatar
+Hi
+8:47 AM
+Good morning!
+8:47 AM
+All done
+8:47 AM
+image.pngimage.png
+8:47 AM
+Added 3 columns in the color table
+8:48 AM
+And export csv feature.
+Please check. Thanks
+8:51 AM
+User Avatar
+It's working fine, customer is satisfied
+12:31 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. released a milestone
+Milestone: 'Task 20220304'
+Amount: € 200.00 EUR
+12:32 PM
+User Avatar
+Thank you!
+12:41 PM
+If you'll provide a new briefing I'll appreciate a lot.
+12:42 PM
+User Avatar
+You're welcome
+12:42 PM
+I'll try to provide some new work ASAP but i'm also dependent on my customers to greenlight work units. I'm quite sure there will be new work within the next 4-5 days, though.
+12:44 PM
+User Avatar
+Sounds good
+12:44 PM
+Have a great day! slightly smiling face emoji
+12:45 PM
+User Avatar
+You too slightly smiling face emoji
+12:45 PM
+User Avatar
+See later again.
+12:45 PM
+MAR 11, 2022
+User Avatar
+Hi Kyrylo. Ready for some work on this weekend?
+2:02 PM
+User Avatar
+Hi
+7:17 PM
+Thank you for reply
+7:17 PM
+Yes, I can do work weeekend
+7:17 PM
+User Avatar
+Alright, good to hear from you. As it is kinda late now, i won‘t be able to provide briefing today. Expect it tomorrow.
+7:21 PM
+User Avatar
+Ok, no problems
+7:21 PM
+Will be waiting for the briefing tomorrow
+7:22 PM
+User Avatar
+Ok, see you then
+7:24 PM
+User Avatar
+Have a great day! slightly smiling face emoji
+7:24 PM
+MAR 12, 2022
+User Avatar
+Hi Kyrylo.
+1:10 PM
+I've just uploaded a new briefing.
+1:10 PM
+After you scraped the surface of the portal software, running "Coleman". Now it is time to go into the deep.
+1:11 PM
+The more you get to know this software, the more work i can give you.
+For this time, i tried to explain it as far as possible, giving you hints and specifics. This is also a lot of preparation work for me but i'm confident that this will work out fine.
+1:13 PM
+Take a look at the file i just provided and ask me any questions anytime, no matter when.
+1:13 PM
+Budget-Limit for this task is 300.- EUR
+1:16 PM
+User Avatar
+Hi
+3:24 PM
+Thanks for update a new tasks
+3:25 PM
+Let me check
+3:25 PM
+OK, I understand. I will start the update soon. If there is any question, will ping you.
+3:32 PM
+User Avatar
+thx kyrylo
+3:33 PM
+User Avatar
+Can you create a milestone soon?
+6:26 PM
+User Avatar
+ok, will do soon
+7:19 PM
+User Avatar
+ChatBot @ChatBot
+Florian S. created a milestone
+Milestone: 'Task 20220312'
+Amount: € 300.00 EUR
+8:01 PM
+User Avatar
+done
+8:02 PM
+User Avatar
+thumbs up emoji
+9:51 PM
+MAR 13, 2022
+User Avatar
+Hi
+7:19 AM
+image.pngimage.png
+7:19 AM
+Login failed.
+7:20 AM
+User Avatar
+I just now changed the passwort to : test123
+11:00 AM
+test login works
+11:00 AM
+User Avatar
+Ok
+11:02 AM
+Thank you
+11:02 AM
+That works
+11:03 AM
+MAR 15, 2022
+User Avatar
+Hey Kyrylo, how are you doing?
+12:49 PM
+User Avatar
+How are you?
+2:12 PM
+I am hard working still
+2:12 PM
+It takes more time that thought but will do my best to try
+2:13 PM
+User Avatar
+Alright, thx for the update. Remember i can help you understand portal logic , you just have to ask slightly smiling face emoji
+2:15 PM
+User Avatar
+I see.
+it might need few supports
+2:18 PM
+User Avatar
+FYI : Click the movie embedded on this page to get a general overview what this portal is used for (it is english) https://www.das-studio.de/smarter-workflow/
+2:27 PM
+User Avatar
+Ok I will ref it
+2:30 PM
+Thanks
+2:30 PM
+Hi Florian!
+5:13 PM
+2nd task done. Please check
+5:14 PM
+User Avatar
+Great, will do later
+5:22 PM
+i can‘t see any commits in git. is this right?
+8:14 PM
+User Avatar
+yes, not committed
+8:45 PM
+I will commit.
+8:46 PM
+All committed.
+8:50 PM
+User Avatar
+alright, i was able to take a look at the changes you made.
+10:08 PM
+unfortunately the goal for Task2 was not achieved. It also made a working part (the user substitution dropdown in "my profile") disfunct
+10:10 PM
+this part was never the target of task2. quote : "The list of mail recipients on the right side (see Fig.1)"
+10:13 PM
+Fig 1 as a reminder
+10:13 PM
+Bildschirmfoto 2022-03-15 um 21.13.08.pngBildschirmfoto 2022-03-15 um 21.13.08.png
+10:13 PM
+For today it is too late but i suggest i'll rebrief Task2 in more Detail tomorrow.
+10:16 PM
+Sry, i'd totally like to tell you something more positive right now.
+Have a Good night and let's talk again tomorrow
+10:18 PM
+User Avatar
+OK, Good night
+10:19 PM
+User Avatar
+One positive thing though: I think you are become more and more familiar with the codebase/-style
+10:21 PM
+User Avatar
+Thanks
+10:24 PM
+MAR 16, 2022
+User Avatar
+Hi Florian!
+8:21 PM
+User Avatar
+Hi Kyrylo. I wasn't able to rebrief task2 today. Did you receive an invitation to the YouTrack Bugtracker?
+9:53 PM
+User Avatar
+I did not get invitation.
+9:56 PM
+User Avatar
+Pls check again now .
+
+URL is subnetz.youtrack.cloud
+Account : k-dev@sub-netz.de
+10:00 PM
+User Avatar
+Let me check
+10:06 PM
+image.pngimage.png
+10:08 PM
+Let me know password.
+10:08 PM
+User Avatar
+hmm ... the page is in german ... that's odd. is your browser set to german as default lang?
+10:09 PM
+password is : test123 (you will be required to change that later)
+10:10 PM
+User Avatar
+OK. let me check
+10:10 PM
+User Avatar
+default lang was set to german systemwide on the bugtracker. I changed that to english as of now
+10:12 PM
+User Avatar
+thumbs up emoji
+10:13 PM
+It says wrong password.
+10:13 PM
+image.pngimage.png
+10:14 PM
+User Avatar
+test123
+10:14 PM
+in 3mins i guess
+10:14 PM
+a bummer ... my fault. hang on
+10:15 PM
+try again in 3mins. There was somehow a typo in the mail address
+10:16 PM
+User Avatar
+logged in successfully
+10:19 PM
+User Avatar
+There should be a "Newell / Coleman" Project and a single Ticket for it "Test ..." .
+10:19 PM
+User Avatar
+I see it
+10:22 PM
+image.pngimage.png
+10:23 PM
+User Avatar
+Alright. Right now i'm setting up a ticket for Task 2 . Explaining in Detail what's what.
+I'll ping you in 10-15minutes when it is ready.
+10:24 PM
+User Avatar
+OK
+10:24 PM
+User Avatar
+Alright, it's on. Tried my best to explain what is required. From now just comment on the ticket and i will get in touch.
+https://subnetz.youtrack.cloud/issue/NCPAT-2
+10:59 PM
+User Avatar
+Thanks
+11:05 PM
+I will check and update.
+11:06 PM
+User Avatar
+Thx Kyrylo, i'm in good hope that it will work out this time. And again : The more you make yourself familiar with the code, the more work i can offer you.
+11:08 PM
+User Avatar
+Will do my best
+11:15 PM
+MAR 17, 2022
+User Avatar
+Hi
+7:07 AM
+The password was expired.
+7:07 AM
+Please reset it
+7:07 AM
+User Avatar
+Which one?
+12:28 PM
+User Avatar
+image.pngimage.png
+1:07 PM
+https://dev-pat-coleman.das-studio.de/
+1:07 PM
+User Avatar
+wrong URL
+1:08 PM
+https://coleman-dev-ext.das-studio.de
+1:08 PM
+User Avatar
+Oh, sorry, it works.
+1:09 PM
+I will update asap.
+1:09 PM
+User Avatar
+thumbs up emoji
+1:09 PM
+Any questions/updates/comments, pls post in the YouTrack-Issue as a comment. I got the YouTrack-App for iPhone installed and it SHOULD notfiy me in an instant
+1:10 PM
+User Avatar
+Sure, Thanks
+1:12 PM
+thumbs up emoji
+1:12 PM
+MAR 18, 2022
+User Avatar
+Hi
+10:12 AM
+2nd task is done. Committed to coleman feature/1.2
+Please check
+10:13 AM
+User Avatar
+hi. please comment with screenshot on the issue in the youtrack system as we agreed upon
+11:22 AM
+https://subnetz.youtrack.cloud/youtrack/issue/NCPAT-2
+11:22 AM
+User Avatar
+Commented on ticket.
+12:09 PM
+Thanks
+12:09 PM
+User Avatar
+awesome, give me 1-2h hours to check
+12:11 PM
+MAR 27, 2022
+User Avatar
+sorry, I am not available due to bad situation. I can cancel the milestone if you want. Will be back asap.
+Thanks
+4:49 AM
+User Avatar
+sry to hear. i can release it anyway if it helps. you can make it up to me another time
+10:36 AM
+User Avatar
+ChatBot @ChatBot
+Florian S. wants to cancel a milestone
+Milestone: 'Task 20220312'
+Amount: € 300.00 EUR
+Reason: 'This milestone is no longer needed.'
+12:42 PM
+User Avatar
+ChatBot @ChatBot
+Kyrylo D. approved a milestone cancellation
+Milestone: 'Task 20220312'
+Amount: € 300.00 EUR
+11:42 PM
+JUN 01, 2022
+User Avatar
+hello
+8:12 AM
+JUL 09, 2022
+User Avatar
+ChatBot @ChatBot
+Kyrylo D. requested a milestone payment
+Milestone: 'please complete this project'
+Amount: € 100.00 EUR
+View Milestone
+9:00 PM
+User Avatar
+hello, sir
+9:00 PM
+please complete it with good review.
+I cant bid another project because of it.
+9:01 PM
+and if you have a project, we can work continue
+9:07 PM
+JUL 12, 2022
+User Avatar
+ChatBot @ChatBot
+Kyrylo D. requested a milestone payment
+Milestone: 'please complete this project'
+Amount: € 1000.00 EUR
+View Milestone
+3:54 PM
+User Avatar
+Hello, sir
+I can't bid and accept to the more project because of this.
+Please check this
+3:55 PM
+User Avatar
+Hi Kyrylo, nice to hear from you.
+3:56 PM
+User Avatar
+me too
+3:56 PM
+how is going well
+3:56 PM
+?
+3:57 PM
+User Avatar
+I'm OK, hope you too. Unfortunately i was not able to find the time to create some new work four you in the last weeks.
+3:58 PM
+User Avatar
+got it
+3:58 PM
+could you complete this project with good review?
+3:58 PM
+User Avatar
+I understand that you requested that i close the open project with a good review for you
+3:59 PM
+of course
+3:59 PM
+User Avatar
+cool
+3:59 PM
+please
+3:59 PM
+User Avatar
+Should i tick that box?
+4:02 PM
+Bildschirmfoto 2022-07-12 um 16.02.36.pngBildschirmfoto 2022-07-12 um 16.02.36.png
+4:02 PM
+User Avatar
+don't need
+4:04 PM
+User Avatar
+ok
+4:04 PM
+my question is : will this make it easier for working together in the future with you?
+4:04 PM
+User Avatar
+of course
+4:05 PM
+if you need me, please hit me
+4:05 PM
+i will just reach out for you
+4:05 PM
+User Avatar
+then i will tick this box slightly smiling face emoji
+4:05 PM
+User Avatar
+image.pngimage.png
+4:06 PM
+lol
+4:06 PM
+User Avatar
+that's done. Obviously there is a time of 1,5days to discuss the project
+4:06 PM
+Bildschirmfoto 2022-07-12 um 16.06.10.pngBildschirmfoto 2022-07-12 um 16.06.10.png
+4:06 PM
+Kyrylo D.
+@keryaseniordev
+image.png
+image.png
+chatbot text
+4:07 PM
+User Avatar
+i know
+4:07 PM
+thanks
+4:07 PM
+User Avatar
+ok, so there is a little pressure on my side now to set up a new task within 1day 11hours ... hmm . i'll look into it
+4:08 PM
+Kyrylo D.
+@keryaseniordev
+thanks
+you're welcome
+4:08 PM
+User Avatar
+if you need me, don't hesitate.
+4:09 PM
+hope you are doing well!!
+4:09 PM
+User Avatar
+work + family is keeping me occupied
+4:10 PM
+User Avatar
+lol
+make sense
+I will be always ready for you
+4:10 PM
+smile emoji
+4:11 PM
+User Avatar
+ok, expect to hear from me within the next 1day 11hours slightly smiling face emoji
+4:11 PM
+User Avatar
+thanks
+4:11 PM
+JUL 15, 2022
+User Avatar
+Hi
+8:22 PM
+how is your weekend?
+8:22 PM
+I want to know how is the new task
+8:23 PM
+slightly smiling face emoji
+8:23 PM
+JUL 16, 2022
+User Avatar
+Are you familiar with Wordpress?
+11:31 AM
+User Avatar
+yes
+4:46 PM
+no problem
+4:46 PM
+JUL 17, 2022
+User Avatar
+a customer of mine needs to have all external google font loading of the template Switched to local / server hosted version. I need it to be done by early
+monday and there is a tight budget limit (100.-) . if you are still interested let me know asap
+11:10 AM
+JUL 18, 2022
+User Avatar
+please share more info
+3:33 AM
+i will do
+3:33 AM
+User Avatar
+but, don't you have a big project?
+8:40 AM
+User Avatar
+Here's the info to the project : https://subnetz.youtrack.cloud/issue/SPCS-1
+12:29 PM
+i'm sry to only have such a small task atm . Problem is that i'm going on vacation from 22th of July for two weeks and i can not open up bigger tasks in the meantime.
+12:30 PM
+Please check the issue ASAP and tell me if you can do it.
+12:52 PM
+User Avatar
+hi, bro
+1:08 PM
+could you create milestone now?
+1:09 PM
+User Avatar
+done
+1:11 PM
+User Avatar
+please check the site
+1:37 PM
+done
+1:38 PM
+please release milestone
+1:51 PM
+User Avatar
+If it is done, please write update the youtrack issue accordingly. Providing a screenshot that shows that the problem no longer exists would be very nice too.
+
+So far, i fail to see how it is fixed :
+1:51 PM
+Bildschirmfoto 2022-07-18 um 13.51.30.pngBildschirmfoto 2022-07-18 um 13.51.30.png
+1:51 PM
+User Avatar
+image.pngimage.png
+1:53 PM
+as you can see, all fonts had itself style
+1:54 PM
+User Avatar
+The goal is to remove *any* external google font REQUESTS (as highlighted in the image i provided in youtrack). Bc it violates the GDPR for this site.
+1:56 PM
+User Avatar
+image.pngimage.png
+1:58 PM
+previous site fonts
+1:58 PM
+are you there?
+1:59 PM
+User Avatar
+Again : The goal is/was NOT to change any font on exisiting layout elements.
+The goal ist to REPLACE the external INCLUDES. Are you familiar with goole fonts? You can either load Google-Fonts via URL OR you can upload a local version of the font file and use this instead.
+And i NEED all of the used google fonts (Rubik, ...) to be loaded from the local server, NOT google.
+This is why i HIGHLIGHTED the outgoing font requests in the PICTURE i provided in YouTrack.
+2:01 PM
+User Avatar
+ok
+2:19 PM
+hi, bro
+3:40 PM
+I want to check this on your local pc.
+3:42 PM
+User Avatar
+?
+3:43 PM
+User Avatar
+i did some changing, so i want to check
+3:46 PM
+User Avatar
+simple : Open the website in your browser, open dev-tools, check if any google fonts requests are still fired to google instead of the webserver itself
+3:47 PM
+any news?
+6:54 PM
+User Avatar
+workig now
+6:59 PM
+but some problems
+6:59 PM
+researching now
+7:00 PM
+JUL 19, 2022
+User Avatar
+hello
+6:54 AM
+User Avatar
+good morning
+8:55 AM
+User Avatar
+hi, bro
+9:00 AM
+User Avatar
+any news?
+9:20 AM
+User Avatar
+i am finding now.
+9:20 AM
+i think, the one of the reason is cache
+9:21 AM
+User Avatar
+browser cache?
+9:21 AM
+User Avatar
+wordpress cache.
+so i am checking now.
+9:22 AM
+https://docs.google.com/document/d/1MDKnOSkMtVhBGDrUfUWXGxMVrDfhIgfcpLDyEzlwfuM/edit
+9:22 AM
+please check it
+9:22 AM
+User Avatar
+what is this link about ??
+9:25 AM
+User Avatar
+ok
+9:27 AM
+User Avatar
+Who is "Lionel" ? Please no funny stuff like switching comm channels (we already established that via Skype) or requesting payment via PayPal or such.
+
+Let's focus solely on this task. In the meantime i have spend almost the same amount of time communicating and briefing that i would have spent fixing this by myself.
+9:35 AM
+So please : Fix it, report the fix to me, get your money and let us be done with this task.
+9:39 AM
+User Avatar
+ok
+9:41 AM
+Florian S.
+@DoyleFFM
+Who is "Lionel" ? Please no funny stuff like switching comm channels (we already established that via Skype) or requesting payment via PayPal or such… more
+this is my father name
+9:49 AM
+I am still checking on it.
+not sure from where it's still loading google fonts.
+I updated inside Slider also
+10:12 AM
+hi
+10:24 AM
+enqueues.php
+10:25 AM
+there was error when I tried to upload file using plugin
+10:25 AM
+and now it gives Fatal error and I am not able to access website
+10:25 AM
+Can you please upload this file using ftp under /wp-content/themes/nex/vamtam/classes/
+10:25 AM
+So I can again access website
+10:26 AM
+hat's why I prefer ftp over plugin
+10:26 AM
+let me know when it's uploaded, so I can continue working
+10:26 AM
+if you have problem uploading, please share ftp with me, so I can upload it by myself
+10:26 AM
+User Avatar
+oh no ...
+10:27 AM
+User Avatar
+please
+10:27 AM
+User Avatar
+FTP data was not shared with me. i'll have to ask the customer
+10:28 AM
+User Avatar
+ok
+10:28 AM
+do you think he will respond quickly? or We'll have to wait?
+10:29 AM
+User Avatar
+i found the access data saved in a old FTP-Client, will upload the file now
+10:36 AM
+I uploaded it but the error persists rage emoji
+10:39 AM
+Bildschirmfoto 2022-07-19 um 10.38.41.pngBildschirmfoto 2022-07-19 um 10.38.41.png
+10:39 AM
+And : None of the files in that folder has changed, according to timestamps
+10:44 AM
+What did you do to break the whole site?
+10:44 AM
+User Avatar
+seems like you uploaded inside wrong folder
+10:47 AM
+in that folder there should be also a file called enqueues~0.php
+10:47 AM
+that is the correct folder
+10:47 AM
+User Avatar
+ok, let me take a second look
+10:48 AM
+User Avatar
+Florian S.
+@DoyleFFM
+What did you do to break the whole site?
+it's just this file is missing. nothing wrong
+10:48 AM
+here is what happened .. I uploaded this file using plugin and clicked on to keep backup of original file. So it renamed original file to enqueues~0.php and uploaded my file.
+
+Then I changed something in file and uploaded it again to replace my old file, but this time it gives uploading error, so it removed old file (mine one) and latest file wasn't uploaded
+10:51 AM
+User Avatar
+ok, its working again
+10:51 AM
+the folder i uploaded to before, was from a backup folder
+10:51 AM
+User Avatar
+yes
+10:52 AM
+thanks
+10:52 AM
+I didn't done anything to break it... these things happens when we use plugin to upload files
+10:52 AM
+User Avatar
+no prob. glad that its working again
+10:52 AM
+User Avatar
+Florian S.
+@DoyleFFM
+the folder i uploaded to before, was from a backup folder
+yes, I thought so because it was under sub-directory
+10:53 AM
+User Avatar
+Kyrylo D.
+@keryaseniordev
+I didn't done anything to break it... these things happens when we use plugin to upload files
+its alright, i just don't have the FTP data ready for copy/paste only the old FTP client's saved data
+10:53 AM
+User Avatar
+I am working on it again
+10:54 AM
+User Avatar
+hi, bro
+4:42 PM
+are you there?
+4:42 PM
+i finished please check it
+4:42 PM
+User Avatar
+you did it!
+4:48 PM
+User Avatar
+please release milestone
+4:49 PM
+I'll leave good reviews and 5 stars
+4:49 PM
+for you
+4:49 PM
+User Avatar
+Milestone + Tip released
+4:52 PM
+User Avatar
+awesome!
+4:54 PM
+thank you very much
+4:54 PM
+User Avatar
+thx for your effort
+4:54 PM
+be sure to receive more work from me when i'm back from vacation (ca. 10th of August)
+4:55 PM
+User Avatar
+okay
+4:55 PM
+Wishing you the best of luck in your journey
+4:56 PM
+I'll contact to you on10th of August
+4:56 PM
+AUG 08, 2022
+User Avatar
+Hi
+1:44 PM
+how are you
+1:44 PM
+AUG 09, 2022
+User Avatar
+did you have a great vacation?
+10:57 AM
+TODAY
+User Avatar
+hi kyrylo. my vacation was great, thx for asking.
+I'm preparing new tasks for you on the "coleman" portal you've worked on in the past. Give me 1-2 Days to come up with details.
+4:43 PM
+User Avatar
+Great!
+5:12 PM
+Thanks you very much
+5:13 PM
+I will wait for you
+5:13 PM
